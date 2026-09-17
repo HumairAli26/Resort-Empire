@@ -33,8 +33,18 @@ public class ShopTabController : MonoBehaviour
     }
 
     // Call this if the player clicks a "Close" button or clicks back onto the main game screen
-    public void CloseShopMenu()
+    public void CloseShopMenu(int panelIndex)
     {
-        gameObject.SetActive(false);
+        // Turn off the main sub-bar container
+        if( gameObject.activeSelf) 
+        {
+            gameObject.SetActive(false);
+        } 
+        else 
+        {
+            // Do nothing, as the container is already inactive
+            OpenCategoryTab(panelIndex);
+        }
+        
     }
 }
