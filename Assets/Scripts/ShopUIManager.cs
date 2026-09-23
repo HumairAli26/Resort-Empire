@@ -43,6 +43,6 @@ public class ShopUIManager : MonoBehaviour
         Debug.Log($"Selected to build: {item.itemName}");
         
         // Pass the actual asset prefab over to your placement controller
-        placementSystem.SetPreviewObject(item.itemPrefab);
+        //placementSystem.SetPreviewObject(item.itemPrefab);
     }
 }

@@ -1,69 +1,231 @@
 using UnityEngine;
-using UnityEngine.Tilemaps;
-using UnityEngine.InputSystem; // Make sure to include this!
+using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 
 public class CrossPlatformPlacement : MonoBehaviour
 {
-    public Grid grid;                   // Drag your Grid here
-    public GameObject previewObject;    // The object/item prefab being placed
-    public GridManager gridManager;     // Drag your GridManager here
+    [Header("References")]
+    public Grid grid;
+    public GridManager gridManager;
+    public Camera mainCamera;
 
-    private Camera mainCamera;
+    [Header("Visual Tuning")]
+    public Vector3 previewVisualOffset = Vector3.zero; // tweak in Inspector until it lines up with your cursor
+
+    private GameObject previewObject;
+    private GameObject selectedPrefab;
+    private ShopItemData selectedItemData;
     private SpriteRenderer previewRenderer;
 
-    void Start()
+    private void Update()
     {
-        mainCamera = Camera.main;
-    }
+        // Nothing selected
+        if (previewObject == null)
+            return;
 
-    public void SetPreviewObject(GameObject newPreview)
-    {
-        previewObject = Instantiate(newPreview);
-        previewRenderer = previewObject.GetComponent<SpriteRenderer>();
-    }
+        // No pointer available
+        if (Pointer.current == null)
+            return;
 
-    void Update()
-    {
-        if (previewObject == null) return;
+        // Right-click cancels placement
+        if (Mouse.current != null &&
+            Mouse.current.rightButton.wasPressedThisFrame)
+        {
+            CancelPlacement();
+            return;
+        }
 
-        Vector2 screenPosition = Pointer.current != null ? Pointer.current.position.ReadValue() : Vector2.zero;
-        Vector3 worldPos = mainCamera.ScreenToWorldPoint(screenPosition);
-        worldPos.z = 0;
+        // Get mouse/touch position on screen
+        Vector2 screenPosition =
+            Pointer.current.position.ReadValue();
 
-        Vector3Int cellPos = grid.WorldToCell(worldPos);
-        previewObject.transform.position = grid.GetCellCenterWorld(cellPos);
+        // Convert screen position to world position
+        // using a ray from the camera
+        Ray ray = mainCamera.ScreenPointToRay(screenPosition);
 
-        bool canPlace = gridManager.IsTileEmpty(new Vector2Int(cellPos.x, cellPos.y));
-        
+        // Ground plane at Z = 0
+        Plane groundPlane =
+            new Plane(Vector3.forward, Vector3.zero);
+
+        if (!groundPlane.Raycast(ray, out float distance))
+            return;
+
+        Vector3 worldPosition =
+            ray.GetPoint(distance);
+
+        // Make sure Z stays at 0
+        worldPosition.z = 0f;
+
+        // Convert world position to grid cell
+        Vector3Int cellPosition =
+            grid.WorldToCell(worldPosition);
+
+        // Get exact center of the grid cell
+        Vector3 snappedPosition =
+            grid.GetCellCenterWorld(cellPosition);
+
+        // Move preview (with visual offset applied so art lines up with cursor)
+        previewObject.transform.position =
+            snappedPosition + previewVisualOffset;
+
+        // Convert cell to GridManager coordinates
+        Vector2Int gridPosition =
+            new Vector2Int(
+                cellPosition.x,
+                cellPosition.y
+            );
+
+        // Check if the tile is available
+        bool canPlace =
+            gridManager.IsTileEmpty(gridPosition);
+
+        // Change preview color
         if (previewRenderer != null)
         {
-            previewRenderer.color = canPlace ? Color.white : new Color(1f, 0.3f, 0.3f, 0.8f);
+            if (canPlace)
+            {
+                previewRenderer.color =
+                    new Color(1f, 1f, 1f, 0.5f);
+            }
+            else
+            {
+                previewRenderer.color =
+                    new Color(1f, 0.2f, 0.2f, 0.5f);
+            }
         }
-        if (Pointer.current.press.wasPressedThisFrame && canPlace)
+
+        // Check for click/tap
+        if (Pointer.current.press.wasPressedThisFrame)
         {
-            ConfirmPlacement(new Vector2Int(cellPos.x, cellPos.y));
+            // Don't place if clicking UI
+            if (EventSystem.current != null &&
+                EventSystem.current.IsPointerOverGameObject())
+            {
+                return;
+            }
+
+            if (canPlace)
+            {
+                ConfirmPlacement(gridPosition);
+            }
+            else
+            {
+                Debug.Log("Cannot build here!");
+            }
         }
     }
 
-    void ConfirmPlacement(Vector2Int targetCell)
+    public void SetPreviewObject(ShopItemData data)
     {
-        Vector2Int checkPos = new Vector2Int(targetCell.x, targetCell.y);
-
-        // Ask the dictionary if the spot is clear
-        if (gridManager.IsTileEmpty(checkPos))
+        // Remove previous preview
+        if (previewObject != null)
         {
-            // 1. Tell the logbook this spot is now taken!
-            gridManager.OccupyTile(checkPos);
+            Destroy(previewObject);
+        }
 
-            // 2. Spawn the actual furniture item
-            Instantiate(previewObject, transform.position, Quaternion.identity);
-            
-            Debug.Log("Item placed successfully!");
-        }
-        else
+        if (data == null || data.itemPrefab == null)
         {
-            // Play an error sound or turn the preview red!
-            Debug.Log("Cannot build here! Tile is already full.");
+            Debug.LogError("ShopItemData or its prefab is NULL!");
+            return;
         }
+
+        // Store selected data and prefab
+        selectedItemData = data;
+        selectedPrefab = data.itemPrefab;
+
+        // Create preview
+        previewObject =
+            Instantiate(selectedPrefab);
+
+        // Get SpriteRenderer
+        previewRenderer =
+            previewObject.GetComponentInChildren<SpriteRenderer>();
+
+        // Make preview transparent
+        if (previewRenderer != null)
+        {
+            previewRenderer.color =
+                new Color(1f, 1f, 1f, 0.5f);
+        }
+
+        Debug.Log(
+            "Selected: " +
+            selectedItemData.itemName
+        );
+    }
+
+    private void ConfirmPlacement(Vector2Int targetCell)
+    {
+        // Double-check that the cell is empty
+        if (!gridManager.IsTileEmpty(targetCell))
+        {
+            Debug.Log(
+                "Tile is already occupied!"
+            );
+
+            return;
+        }
+
+        // Convert grid coordinates to Unity cell
+        Vector3Int cellPosition =
+            new Vector3Int(
+                targetCell.x,
+                targetCell.y,
+                0
+            );
+
+        // Get exact center of the cell (apply same visual offset used in preview)
+        Vector3 worldPosition =
+            grid.GetCellCenterWorld(cellPosition) + previewVisualOffset;
+
+        // Create the real building
+        GameObject placedBuilding =
+            Instantiate(
+                selectedPrefab,
+                worldPosition,
+                previewObject.transform.rotation // use the preview's current rotation instead of identity
+            );
+
+        // Push real item data into the placed object
+        PlaceableItem placeable =
+            placedBuilding.GetComponent<PlaceableItem>();
+
+        if (placeable != null)
+        {
+            placeable.Initialize(selectedItemData, targetCell);
+        }
+
+        // Mark tile as occupied
+        gridManager.OccupyTile(targetCell);
+
+        Debug.Log(
+            "Placed: " +
+            placedBuilding.name +
+            " at " +
+            worldPosition
+        );
+
+        // Remove preview
+        Destroy(previewObject);
+
+        previewObject = null;
+        selectedPrefab = null;
+        selectedItemData = null;
+        previewRenderer = null;
+    }
+
+    private void CancelPlacement()
+    {
+        if (previewObject != null)
+        {
+            Destroy(previewObject);
+        }
+
+        previewObject = null;
+        selectedPrefab = null;
+        selectedItemData = null;
+        previewRenderer = null;
+
+        Debug.Log("Placement cancelled.");
     }
 }
