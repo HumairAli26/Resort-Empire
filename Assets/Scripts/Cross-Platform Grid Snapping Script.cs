@@ -156,58 +156,39 @@ public class CrossPlatformPlacement : MonoBehaviour
 
     private void ConfirmPlacement(Vector2Int targetCell)
     {
-        // Double-check that the cell is empty
         if (!gridManager.IsTileEmpty(targetCell))
         {
-            Debug.Log(
-                "Tile is already occupied!"
-            );
-
+            Debug.Log("Tile is already occupied!");
             return;
         }
 
-        // Convert grid coordinates to Unity cell
-        Vector3Int cellPosition =
-            new Vector3Int(
-                targetCell.x,
-                targetCell.y,
-                0
-            );
+        // NEW: check and deduct funds before placing
+        if (!EconomyManager.Instance.SpendMoney(selectedItemData.cost))
+        {
+            Debug.Log("Cannot afford this item!");
+            return; // stop here — don't place, don't destroy preview yet
+        }
 
-        // Get exact center of the cell (apply same visual offset used in preview)
-        Vector3 worldPosition =
-            grid.GetCellCenterWorld(cellPosition) + previewVisualOffset;
+        Vector3Int cellPosition = new Vector3Int(targetCell.x, targetCell.y, 0);
+        Vector3 worldPosition = grid.GetCellCenterWorld(cellPosition) + previewVisualOffset;
 
-        // Create the real building
-        GameObject placedBuilding =
-            Instantiate(
-                selectedPrefab,
-                worldPosition,
-                previewObject.transform.rotation // use the preview's current rotation instead of identity
-            );
+        GameObject placedBuilding = Instantiate(
+            selectedPrefab,
+            worldPosition,
+            previewObject.transform.rotation
+        );
 
-        // Push real item data into the placed object
-        PlaceableItem placeable =
-            placedBuilding.GetComponent<PlaceableItem>();
-
+        PlaceableItem placeable = placedBuilding.GetComponent<PlaceableItem>();
         if (placeable != null)
         {
             placeable.Initialize(selectedItemData, targetCell);
         }
 
-        // Mark tile as occupied
         gridManager.OccupyTile(targetCell);
 
-        Debug.Log(
-            "Placed: " +
-            placedBuilding.name +
-            " at " +
-            worldPosition
-        );
+        Debug.Log("Placed: " + placedBuilding.name + " at " + worldPosition);
 
-        // Remove preview
         Destroy(previewObject);
-
         previewObject = null;
         selectedPrefab = null;
         selectedItemData = null;
