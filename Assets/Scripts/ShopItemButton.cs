@@ -10,6 +10,19 @@ public class ShopItemButton : MonoBehaviour
     void Start()
     {
         button.onClick.AddListener(SelectItem);
+        EconomyManager.Instance.OnBalanceChanged += UpdateAffordability;
+        UpdateAffordability(EconomyManager.Instance.CurrentBalance);
+    }
+
+    void OnDestroy()
+    {
+        if (EconomyManager.Instance != null)
+            EconomyManager.Instance.OnBalanceChanged -= UpdateAffordability;
+    }
+
+    void UpdateAffordability(int currentBalance)
+    {
+        button.interactable = currentBalance >= itemData.cost;
     }
 
     void SelectItem()
