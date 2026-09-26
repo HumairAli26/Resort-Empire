@@ -75,6 +75,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Scripts\CashDisplay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -84,10 +85,12 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Scripts\GameStatsManager.cs" />
     <Compile Include="Assets\Scripts\ShopItemButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\BalanceDisplay.cs" />
+    <Compile Include="Assets\Scripts\ExpStats.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\Cross-Platform Grid Snapping Script.cs" />
@@ -97,6 +100,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\SpriteChanger.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1241,6 +1245,7 @@
     <ProjectReference Include="Unity.AI.Assistant.Tools.Editor.csproj" />
     <ProjectReference Include="Unity.AppUI.Undo.csproj" />
     <ProjectReference Include="Unity.AI.MCP.Runtime.csproj" />
+    <ProjectReference Include="Nobi.UiRoundedCorners.Editor.csproj" />
     <ProjectReference Include="Unity.UnifiedRayTracing.Runtime.csproj" />
     <ProjectReference Include="Unity.2D.Aseprite.Common.csproj" />
     <ProjectReference Include="Unity.InferenceEngine.MacBLAS.csproj" />
@@ -1280,6 +1285,7 @@
     <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj" />
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj" />
     <ProjectReference Include="Unity.Timeline.csproj" />
+    <ProjectReference Include="Nobi.UiRoundedCorners.csproj" />
     <ProjectReference Include="Unity.2D.Tooling.Editor.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj" />
     <ProjectReference Include="Unity.Searcher.Editor.csproj" />
