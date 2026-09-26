@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a9a9e791792b5c040a6d498b9a79cf38
+guid: c924ccd480ef2594aa5b33f0474cf699
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8251055579311144019
-    second: popularity_badge@3x_0
+      213: 2820264301331202460
+    second: currency_panel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,13 +178,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: popularity_badge@3x_0
+      name: currency_panel_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 324
-        height: 60
+        width: 480
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35c78da5553a18270800000000000000
-      internalID: 8251055579311144019
+      spriteID: c91cf8d8077932720800000000000000
+      internalID: 2820264301331202460
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      popularity_badge@3x_0: 8251055579311144019
+      currency_panel_0: 2820264301331202460
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
