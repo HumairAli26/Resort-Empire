@@ -91,6 +91,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\BalanceDisplay.cs" />
     <Compile Include="Assets\Scripts\ExpStats.cs" />
+    <Compile Include="Assets\Scripts\Scheduler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\Cross-Platform Grid Snapping Script.cs" />
@@ -1244,10 +1245,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.csproj" />
     <ProjectReference Include="Unity.AI.Assistant.Tools.Editor.csproj" />
     <ProjectReference Include="Unity.AppUI.Undo.csproj" />
-    <ProjectReference Include="Unity.AI.MCP.Runtime.csproj" />
     <ProjectReference Include="Nobi.UiRoundedCorners.Editor.csproj" />
     <ProjectReference Include="Unity.UnifiedRayTracing.Runtime.csproj" />
     <ProjectReference Include="Unity.2D.Aseprite.Common.csproj" />
+    <ProjectReference Include="Unity.AI.MCP.Runtime.csproj" />
     <ProjectReference Include="Unity.InferenceEngine.MacBLAS.csproj" />
     <ProjectReference Include="Unity.Rider.Editor.csproj" />
     <ProjectReference Include="Unity.AI.Assistant.Bridge.Editor.csproj" />
