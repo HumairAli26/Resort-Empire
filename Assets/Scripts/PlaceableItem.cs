@@ -10,6 +10,7 @@ public class PlaceableItem : MonoBehaviour
     public int incomeGeneration;
     public int maintenanceCost;
     public int employeeRate;
+    public string itemtype; // e.g. "Room", "Restaurant", "Attraction", etc.
 
     [HideInInspector] public Vector2Int gridPosition; // which cell it was placed at
 
