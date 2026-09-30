@@ -202,5 +202,5 @@ MonoBehaviour:
   incomeGeneration: 0
   maintenanceCost: 0
   employeeRate: 0
-  itemtype: Room
+  itemtype: room
   gridPosition: {x: 0, y: 0}
