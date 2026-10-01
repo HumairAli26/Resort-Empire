@@ -10,24 +10,37 @@ public class CrossPlatformPlacement : MonoBehaviour
     public Camera mainCamera;
 
     [Header("Visual Tuning")]
-    public Vector3 previewVisualOffset = Vector3.zero; // tweak in Inspector until it lines up with your cursor
+    public Vector3 previewVisualOffset = Vector3.zero;
+
+    [Header("Collider Overlap Settings")]
+    [Tooltip("Layers containing objects that should block placement.")]
+    public LayerMask placementBlockingLayers = ~0;
+
+    [Tooltip("Ignore trigger colliders when checking placement.")]
+    public bool ignoreTriggerColliders = true;
 
     private GameObject previewObject;
     private GameObject selectedPrefab;
     private ShopItemData selectedItemData;
     private SpriteRenderer previewRenderer;
 
+    // =====================================================
+    // UPDATE
+    // =====================================================
+
     private void Update()
     {
-        // Nothing selected
         if (previewObject == null)
             return;
 
-        // No pointer available
         if (Pointer.current == null)
             return;
 
-        // Right-click cancels placement
+
+        // -------------------------------------------------
+        // RIGHT CLICK = CANCEL
+        // -------------------------------------------------
+
         if (Mouse.current != null &&
             Mouse.current.rightButton.wasPressedThisFrame)
         {
@@ -35,74 +48,136 @@ public class CrossPlatformPlacement : MonoBehaviour
             return;
         }
 
-        // Get mouse/touch position on screen
+
+        // -------------------------------------------------
+        // GET POINTER POSITION
+        // -------------------------------------------------
+
         Vector2 screenPosition =
             Pointer.current.position.ReadValue();
 
-        // Convert screen position to world position
-        // using a ray from the camera
-        Ray ray = mainCamera.ScreenPointToRay(screenPosition);
 
-        // Ground plane at Z = 0
+        // -------------------------------------------------
+        // SCREEN → WORLD
+        // -------------------------------------------------
+
+        Ray ray =
+            mainCamera.ScreenPointToRay(screenPosition);
+
+
         Plane groundPlane =
             new Plane(Vector3.forward, Vector3.zero);
+
 
         if (!groundPlane.Raycast(ray, out float distance))
             return;
 
+
         Vector3 worldPosition =
             ray.GetPoint(distance);
 
-        // Make sure Z stays at 0
         worldPosition.z = 0f;
 
-        // Convert world position to grid cell
+
+        // -------------------------------------------------
+        // WORLD → GRID
+        // -------------------------------------------------
+
         Vector3Int cellPosition =
             grid.WorldToCell(worldPosition);
 
-        // Get exact center of the grid cell
+
         Vector3 snappedPosition =
             grid.GetCellCenterWorld(cellPosition);
 
-        // Move preview (with visual offset applied so art lines up with cursor)
+
+        // Move preview
         previewObject.transform.position =
             snappedPosition + previewVisualOffset;
 
-        // Convert cell to GridManager coordinates
+
+        // -------------------------------------------------
+        // GRID POSITION
+        // -------------------------------------------------
+
         Vector2Int gridPosition =
             new Vector2Int(
                 cellPosition.x,
                 cellPosition.y
             );
 
-        // Check if the tile is available
-        bool canPlace =
-            gridManager.IsTileEmpty(gridPosition);
 
-        // Change preview color
+        // -------------------------------------------------
+        // GRID CHECK
+        // -------------------------------------------------
+
+        bool gridIsFree =
+            gridManager.IsAreaEmpty(
+                gridPosition,
+                selectedItemData.width,
+                selectedItemData.height
+            );
+
+
+        // -------------------------------------------------
+        // COLLIDER CHECK
+        // -------------------------------------------------
+
+        bool colliderIsFree =
+            IsColliderAreaFree();
+
+
+        // -------------------------------------------------
+        // FINAL CHECK
+        // -------------------------------------------------
+
+        bool canPlace =
+            gridIsFree &&
+            colliderIsFree;
+
+
+        // -------------------------------------------------
+        // PREVIEW COLOR
+        // -------------------------------------------------
+
         if (previewRenderer != null)
         {
             if (canPlace)
             {
                 previewRenderer.color =
-                    new Color(1f, 1f, 1f, 0.5f);
+                    new Color(
+                        1f,
+                        1f,
+                        1f,
+                        0.5f
+                    );
             }
             else
             {
                 previewRenderer.color =
-                    new Color(1f, 0.2f, 0.2f, 0.5f);
+                    new Color(
+                        1f,
+                        0.2f,
+                        0.2f,
+                        0.5f
+                    );
             }
         }
 
-        // Check for click/tap
+
+        // -------------------------------------------------
+        // CLICK / TAP
+        // -------------------------------------------------
+
         if (Pointer.current.press.wasPressedThisFrame)
         {
-            // Don't place if clicking UI
+            // Don't place when clicking UI
             if (EventSystem.current != null &&
                 EventSystem.current.IsPointerOverGameObject())
             {
                 return;
             }
+
 
             if (canPlace)
             {
@@ -110,43 +185,75 @@ public class CrossPlatformPlacement : MonoBehaviour
             }
             else
             {
-                Debug.Log("Cannot build here!");
+                Debug.Log(
+                    "Cannot build here! Object or grid area is occupied."
+                );
             }
         }
     }
 
+
+    // =====================================================
+    // CREATE PREVIEW
+    // =====================================================
+
     public void SetPreviewObject(ShopItemData data)
     {
-        // Remove previous preview
+        // Remove old preview
         if (previewObject != null)
         {
             Destroy(previewObject);
         }
 
-        if (data == null || data.itemPrefab == null)
+
+        if (data == null ||
+            data.itemPrefab == null)
         {
-            Debug.LogError("ShopItemData or its prefab is NULL!");
+            Debug.LogError(
+                "ShopItemData or its prefab is NULL!"
+            );
+
             return;
         }
 
-        // Store selected data and prefab
+
+        // Store selected item
         selectedItemData = data;
         selectedPrefab = data.itemPrefab;
+
 
         // Create preview
         previewObject =
             Instantiate(selectedPrefab);
 
-        // Get SpriteRenderer
+
+        // -------------------------------------------------
+        // FIND SPRITE RENDERER
+        // -------------------------------------------------
+
         previewRenderer =
             previewObject.GetComponentInChildren<SpriteRenderer>();
+
 
         // Make preview transparent
         if (previewRenderer != null)
         {
             previewRenderer.color =
-                new Color(1f, 1f, 1f, 0.5f);
+                new Color(
+                    1f,
+                    1f,
+                    1f,
+                    0.5f
+                );
         }
+
+
+        // -------------------------------------------------
+        // PREPARE COLLIDERS
+        // -------------------------------------------------
+
+        PreparePreviewColliders();
+
 
         Debug.Log(
             "Selected: " +
@@ -154,46 +261,306 @@ public class CrossPlatformPlacement : MonoBehaviour
         );
     }
 
-    private void ConfirmPlacement(Vector2Int targetCell)
+
+    // =====================================================
+    // PREPARE PREVIEW COLLIDERS
+    // =====================================================
+
+    private void PreparePreviewColliders()
     {
-        if (!gridManager.IsTileEmpty(targetCell))
+        if (previewObject == null)
+            return;
+
+
+        Collider2D[] colliders =
+            previewObject.GetComponentsInChildren<Collider2D>();
+
+
+        if (colliders.Length == 0)
         {
-            Debug.Log("Tile is already occupied!");
+            Debug.LogWarning(
+                "Selected prefab has no Collider2D. " +
+                "Collider overlap detection will not work."
+            );
+
             return;
         }
 
-        // NEW: check and deduct funds before placing
-        if (!EconomyManager.Instance.SpendMoney(selectedItemData.cost))
+
+        foreach (Collider2D collider in colliders)
         {
-            Debug.Log("Cannot afford this item!");
-            return; // stop here — don't place, don't destroy preview yet
+            // Keep the collider enabled because
+            // we use its actual shape for overlap detection.
+            collider.enabled = true;
         }
 
-        Vector3Int cellPosition = new Vector3Int(targetCell.x, targetCell.y, 0);
-        Vector3 worldPosition = grid.GetCellCenterWorld(cellPosition) + previewVisualOffset;
 
-        GameObject placedBuilding = Instantiate(
-            selectedPrefab,
-            worldPosition,
-            previewObject.transform.rotation
-        );
+        // Disable rigidbody simulation so the preview
+        // doesn't physically move other objects.
+        Rigidbody2D[] rigidbodies =
+            previewObject.GetComponentsInChildren<Rigidbody2D>();
 
-        PlaceableItem placeable = placedBuilding.GetComponent<PlaceableItem>();
+
+        foreach (Rigidbody2D rb in rigidbodies)
+        {
+            rb.simulated = false;
+        }
+    }
+
+
+    // =====================================================
+    // ACTUAL COLLIDER OVERLAP CHECK
+    // =====================================================
+
+    private bool IsColliderAreaFree()
+    {
+        if (previewObject == null)
+            return false;
+
+
+        Collider2D[] previewColliders =
+            previewObject.GetComponentsInChildren<Collider2D>();
+
+
+        if (previewColliders.Length == 0)
+        {
+            // No collider means there is nothing
+            // to physically check.
+            return true;
+        }
+
+
+        // -------------------------------------------------
+        // CHECK EVERY COLLIDER ON THE PREVIEW
+        // -------------------------------------------------
+
+        foreach (Collider2D previewCollider in previewColliders)
+        {
+            if (previewCollider == null)
+                continue;
+
+
+            if (!previewCollider.enabled)
+                continue;
+
+
+            // Get every collider touching/overlapping
+            // this exact collider shape.
+            ContactFilter2D contactFilter =
+                new ContactFilter2D();
+
+
+            contactFilter.useLayerMask = true;
+            contactFilter.layerMask =
+                placementBlockingLayers;
+
+
+            contactFilter.useTriggers =
+                !ignoreTriggerColliders;
+
+
+            Collider2D[] results =
+                new Collider2D[100];
+
+
+            int count =
+                previewCollider.Overlap(
+                    contactFilter,
+                    results
+                );
+
+
+            // -------------------------------------------------
+            // CHECK RESULTS
+            // -------------------------------------------------
+
+            for (int i = 0; i < count; i++)
+            {
+                Collider2D other =
+                    results[i];
+
+
+                if (other == null)
+                    continue;
+
+
+                // Ignore the preview object's own colliders
+                if (other.transform.IsChildOf(
+                        previewObject.transform))
+                {
+                    continue;
+                }
+
+
+                // Ignore anything belonging to
+                // this preview object.
+                if (other.transform.root ==
+                    previewObject.transform.root)
+                {
+                    continue;
+                }
+
+
+                // Ignore triggers if selected
+                if (ignoreTriggerColliders &&
+                    other.isTrigger)
+                {
+                    continue;
+                }
+
+
+                // We found another object.
+                Debug.Log(
+                    "Placement blocked by: " +
+                    other.gameObject.name
+                );
+
+
+                return false;
+            }
+        }
+
+
+        // Nothing overlapping
+        return true;
+    }
+
+
+    // =====================================================
+    // CONFIRM PLACEMENT
+    // =====================================================
+
+    private void ConfirmPlacement(
+        Vector2Int targetCell)
+    {
+        // -------------------------------------------------
+        // CHECK GRID AGAIN
+        // -------------------------------------------------
+
+        if (!gridManager.IsAreaEmpty(
+                targetCell,
+                selectedItemData.width,
+                selectedItemData.height))
+        {
+            Debug.Log(
+                "Area is already occupied!"
+            );
+
+            return;
+        }
+
+
+        // -------------------------------------------------
+        // CHECK COLLIDER AGAIN
+        // -------------------------------------------------
+
+        if (!IsColliderAreaFree())
+        {
+            Debug.Log(
+                "Cannot place! Another object is overlapping."
+            );
+
+            return;
+        }
+
+
+        // -------------------------------------------------
+        // CHECK MONEY
+        // -------------------------------------------------
+
+        if (!EconomyManager.Instance.SpendMoney(
+                selectedItemData.cost))
+        {
+            Debug.Log(
+                "Cannot afford this item!"
+            );
+
+            return;
+        }
+
+
+        // -------------------------------------------------
+        // WORLD POSITION
+        // -------------------------------------------------
+
+        Vector3Int cellPosition =
+            new Vector3Int(
+                targetCell.x,
+                targetCell.y,
+                0
+            );
+
+
+        Vector3 worldPosition =
+            grid.GetCellCenterWorld(
+                cellPosition
+            ) + previewVisualOffset;
+
+
+        // -------------------------------------------------
+        // CREATE ACTUAL OBJECT
+        // -------------------------------------------------
+
+        GameObject placedBuilding =
+            Instantiate(
+                selectedPrefab,
+                worldPosition,
+                previewObject.transform.rotation
+            );
+
+
+        // -------------------------------------------------
+        // INITIALIZE PLACEABLE ITEM
+        // -------------------------------------------------
+
+        PlaceableItem placeable =
+            placedBuilding.GetComponent<PlaceableItem>();
+
+
         if (placeable != null)
         {
-            placeable.Initialize(selectedItemData, targetCell);
+            placeable.Initialize(
+                selectedItemData,
+                targetCell
+            );
         }
 
-        gridManager.OccupyTile(targetCell);
 
-        Debug.Log("Placed: " + placedBuilding.name + " at " + worldPosition);
+        // -------------------------------------------------
+        // OCCUPY GRID AREA
+        // -------------------------------------------------
+
+        gridManager.OccupyArea(
+            targetCell,
+            selectedItemData.width,
+            selectedItemData.height
+        );
+
+
+        Debug.Log(
+            "Placed: " +
+            placedBuilding.name +
+            " at " +
+            worldPosition
+        );
+
+
+        // -------------------------------------------------
+        // REMOVE PREVIEW
+        // -------------------------------------------------
 
         Destroy(previewObject);
+
         previewObject = null;
         selectedPrefab = null;
         selectedItemData = null;
         previewRenderer = null;
     }
+
+
+    // =====================================================
+    // CANCEL PLACEMENT
+    // =====================================================
 
     private void CancelPlacement()
     {
@@ -202,11 +569,80 @@ public class CrossPlatformPlacement : MonoBehaviour
             Destroy(previewObject);
         }
 
+
         previewObject = null;
         selectedPrefab = null;
         selectedItemData = null;
         previewRenderer = null;
 
-        Debug.Log("Placement cancelled.");
+
+        Debug.Log(
+            "Placement cancelled."
+        );
+    }
+
+
+    // =====================================================
+    // DEBUG GIZMOS
+    // =====================================================
+
+    private void OnDrawGizmosSelected()
+    {
+        if (previewObject == null)
+            return;
+
+
+        Collider2D[] colliders =
+            previewObject.GetComponentsInChildren<Collider2D>();
+
+
+        foreach (Collider2D collider in colliders)
+        {
+            if (collider == null ||
+                !collider.enabled)
+                continue;
+
+
+            Gizmos.matrix =
+                collider.transform.localToWorldMatrix;
+
+
+            if (collider is PolygonCollider2D polygon)
+            {
+                for (int path = 0;
+                     path < polygon.pathCount;
+                     path++)
+                {
+                    Vector2[] points =
+                        polygon.GetPath(path);
+
+
+                    for (int i = 0;
+                         i < points.Length;
+                         i++)
+                    {
+                        Vector2 current =
+                            points[i];
+
+
+                        Vector2 next =
+                            points[
+                                (i + 1) %
+                                points.Length
+                            ];
+
+
+                        Gizmos.DrawLine(
+                            current,
+                            next
+                        );
+                    }
+                }
+            }
+
+
+            Gizmos.matrix =
+                Matrix4x4.identity;
+        }
     }
 }

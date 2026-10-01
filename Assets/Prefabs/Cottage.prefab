@@ -102,6 +102,8 @@ GameObject:
   - component: {fileID: 7599013984212673210}
   - component: {fileID: 8352853201908190452}
   - component: {fileID: 3731789575116060242}
+  - component: {fileID: 1193030712319716997}
+  - component: {fileID: 7381216722799259016}
   m_Layer: 0
   m_Name: Cottage
   m_TagString: Untagged
@@ -197,10 +199,112 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
   itemName: Cottage
-  size: {x: 2, y: 2}
+  size: {x: 2, y: 0}
   cost: 1500
   incomeGeneration: 0
   maintenanceCost: 0
   employeeRate: 0
   itemtype: room
   gridPosition: {x: 0, y: 0}
+--- !u!68 &1193030712319716997
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2380389457816119747}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.006528735, y: 0.5001388}
+  - {x: -0.48694557, y: 0.2532443}
+  - {x: 0.0052250577, y: 0.007973297}
+  - {x: 0.48078838, y: 0.2574867}
+  - {x: -0.013311788, y: 0.51113534}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!60 &7381216722799259016
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2380389457816119747}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.98, y: 0.76}
+    newSize: {x: 0.98, y: 0.76}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.069872506, y: 0.7274266}
+      - {x: -0.3614798, y: 0.5824745}
+      - {x: -0.48999998, y: 0.52}
+      - {x: -0.4884252, y: 0.24657166}
+      - {x: -0.036227114, y: 0.015256271}
+      - {x: 0.0059033707, y: 0.0007384567}
+      - {x: 0.4887971, y: 0.24307919}
+      - {x: 0.48289892, y: 0.5124328}
+      - {x: -0.0000063702464, y: 0.76151377}
+  m_UseDelaunayMesh: 1

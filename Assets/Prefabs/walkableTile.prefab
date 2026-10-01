@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8802126071608026338}
   - component: {fileID: 5073367649192359258}
+  - component: {fileID: 6525225268624551031}
   m_Layer: 0
   m_Name: walkableTile
   m_TagString: Untagged
@@ -91,3 +92,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &6525225268624551031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5051018820477674387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2a66cedcf32b154786c46ce5becb0b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
+  itemName: Walkable Tile
+  size: {x: 1, y: 1}
+  cost: 50
+  incomeGeneration: 0
+  maintenanceCost: 0
+  employeeRate: 0
+  itemtype: Walkable Tile
+  gridPosition: {x: 0, y: 0}

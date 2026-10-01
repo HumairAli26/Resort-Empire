@@ -5,18 +5,36 @@ public class GridManager : MonoBehaviour
 {
     private HashSet<Vector2Int> occupiedTiles = new HashSet<Vector2Int>();
 
-    public bool IsTileEmpty(Vector2Int gridPosition)
+    public bool IsAreaEmpty(Vector2Int startPosition, int width, int height)
     {
-        return !occupiedTiles.Contains(gridPosition);
+        for (int x = 0; x < width; x++)
+        {
+            for (int y = 0; y < height; y++)
+            {
+                Vector2Int currentTile = new Vector2Int(startPosition.x + x, startPosition.y + y);
+                if (occupiedTiles.Contains(currentTile))
+                {
+                    return false; // Found a tile that is already blocked!
+                }
+            }
+        }
+        return true; // The whole area is clear
     }
 
-    public void OccupyTile(Vector2Int gridPosition)
+    public void OccupyArea(Vector2Int startPosition, int width, int height)
     {
-        occupiedTiles.Add(gridPosition);
+        for (int x = 0; x < width; x++)
+        {
+            for (int y = 0; y < height; y++)
+            {
+                Vector2Int currentTile = new Vector2Int(startPosition.x + x, startPosition.y + y);
+                occupiedTiles.Add(currentTile);
+            }
+        }
     }
 
     public void FreeTile(Vector2Int gridPosition)
     {
-        occupiedTiles.Remove(gridPosition);
+        
     }
 }

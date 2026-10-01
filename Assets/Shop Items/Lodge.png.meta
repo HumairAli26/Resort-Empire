@@ -181,12 +181,12 @@ TextureImporter:
       name: Lodge_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 12
-        width: 123
-        height: 93
+        x: 49
+        y: 14
+        width: 121
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,7 +203,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d22b3c81b144f5f4cb089a8880031e52
     internalID: 0
     vertices: []
     indices: 

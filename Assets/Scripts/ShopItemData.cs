@@ -3,6 +3,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewShopItem", menuName = "Tycoon/Shop Item")]
 public class ShopItemData : ScriptableObject
 {
+    [Header("Grid Size")]
+    public int width = 1;  // Number of tiles horizontally
+    public int height = 1; // Number of tiles vertically
     public string itemName;
     public int cost;
     public Sprite itemIcon;
