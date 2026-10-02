@@ -47,6 +47,13 @@ public class ItemPlacer : MonoBehaviour
         PlaceableItem item =
             selectedPrefab.GetComponent<PlaceableItem>();
 
+        if (item == null)
+        {
+            Debug.LogError("Selected prefab is missing a PlaceableItem component!");
+            return;
+        }
+
+        // Check if the multi-tile size footprint fits safely
         if (CanPlaceItem(gridPosition, item.size))
         {
             PlaceItem(gridPosition, item);
@@ -67,24 +74,14 @@ public class ItemPlacer : MonoBehaviour
         GridManager gridManager =
             FindFirstObjectByType<GridManager>();
 
-        for (int x = 0; x < size.x; x++)
+        if (gridManager == null)
         {
-            for (int y = 0; y < size.y; y++)
-            {
-                Vector2Int position =
-                    new Vector2Int(
-                        startPosition.x + x,
-                        startPosition.y + y
-                    );
-
-                if (!gridManager.IsTileEmpty(position))
-                {
-                    return false;
-                }
-            }
+            Debug.LogError("GridManager not found in scene!");
+            return false;
         }
 
-        return true;
+        // Uses the updated full area clearance check method
+        return gridManager.IsAreaEmpty(startPosition, size.x, size.y);
     }
 
     private void PlaceItem(
@@ -114,18 +111,10 @@ public class ItemPlacer : MonoBehaviour
         GridManager gridManager =
             FindFirstObjectByType<GridManager>();
 
-        for (int x = 0; x < placedItem.size.x; x++)
+        if (gridManager != null)
         {
-            for (int y = 0; y < placedItem.size.y; y++)
-            {
-                Vector2Int position =
-                    new Vector2Int(
-                        gridPosition.x + x,
-                        gridPosition.y + y
-                    );
-
-                gridManager.OccupyTile(position);
-            }
+            // Cleanly locks down every block under the resort size footprint area at once
+            gridManager.OccupyArea(gridPosition, placedItem.size.x, placedItem.size.y);
         }
 
         Debug.Log("Purchased and placed: " + placedItem.itemName);

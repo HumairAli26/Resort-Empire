@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e795be7153bcc314c9c895874310fdb9, type: 3}
   m_Name: Icecream Parlour
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
+  width: 1
+  height: 1
   itemName: Icecream Parlour
   cost: 250
   itemIcon: {fileID: -855298285791758126, guid: 5db99c5bb73b83840ace47465cbd6ff3, type: 3}
   itemPrefab: {fileID: 1240098503258918212, guid: 8d93f435904b9454b920492fec6fca5e, type: 3}
+  size: {x: 1, y: 1}
+  itemtype: Facility

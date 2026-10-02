@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1159653315434691802}
   - component: {fileID: 8780167548970576322}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 3x2Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 4392016266815066196}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00083869504, y: -0.008068926, z: 0.006377383, w: 0.9999468}
-  m_LocalPosition: {x: 0.02, y: -0.159, z: 0.015}
+  m_LocalPosition: {x: 0.364, y: -0.266, z: 0.015}
   m_LocalScale: {x: 1.02, y: 1.05, z: 4.41}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102,7 +102,8 @@ GameObject:
   - component: {fileID: 3315079628845652911}
   - component: {fileID: 4670487793425380447}
   - component: {fileID: 1442667574176109506}
-  m_Layer: 0
+  - component: {fileID: 7647897946226657462}
+  m_Layer: 3
   m_Name: Lodge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,8 +119,8 @@ Transform:
   m_GameObject: {fileID: 8134053541327837149}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00044716004, y: 0.008103336, z: -0.055096574, w: 0.9984481}
-  m_LocalPosition: {x: -4.92, y: 3.97, z: -0.08}
-  m_LocalScale: {x: 5.1141715, y: 5.2063594, z: 5.0376}
+  m_LocalPosition: {x: -5.3436, y: 3.6768, z: -0.0816}
+  m_LocalScale: {x: 5.0175138, y: 5.1277432, z: 5.0376}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1159653315434691802}
@@ -197,10 +198,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
   itemName: Lodge
-  size: {x: 3, y: 3}
+  size: {x: 3, y: 0}
   cost: 2500
   incomeGeneration: 0
   maintenanceCost: 0
   employeeRate: 0
   itemtype: Room
   gridPosition: {x: 0, y: 0}
+--- !u!60 &7647897946226657462
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8134053541327837149}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.20283855, y: 0.64995337}
+    oldSize: {x: 1.21, y: 0.9}
+    newSize: {x: 1.23, y: 0.93}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.48338115, y: -0.0016098265}
+      - {x: 0.4453051, y: -0.031948272}
+      - {x: 0.2841944, y: -0.11940196}
+      - {x: 0.15490478, y: -0.18549365}
+      - {x: -0.12290365, y: -0.32392552}
+      - {x: 0.04994344, y: -0.41706517}
+      - {x: 0.23605014, y: -0.515095}
+      - {x: 0.7018617, y: -0.28322712}
+      - {x: 0.805186, y: -0.2309939}
+      - {x: 0.8784616, y: -0.1824829}
+      - {x: 0.62280494, y: -0.09753745}
+  m_UseDelaunayMesh: 1
