@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e795be7153bcc314c9c895874310fdb9, type: 3}
   m_Name: Cottage
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
+  width: 2
+  height: 0
   itemName: Cottage
   cost: 1500
   itemIcon: {fileID: 200029731781800041, guid: 38c7e76c158a18a4fb3a28bd9b4d8a1e, type: 3}
-  itemPrefab: {fileID: 5453066933338380953, guid: 87ffb1fd079eae64a8ff2fece59537a0, type: 3}
+  itemPrefab: {fileID: 2380389457816119747, guid: 87ffb1fd079eae64a8ff2fece59537a0, type: 3}
+  size: {x: 2, y: 2}
+  itemtype: Room

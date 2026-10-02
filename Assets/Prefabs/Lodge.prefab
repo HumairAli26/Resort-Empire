@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1159653315434691802}
   - component: {fileID: 8780167548970576322}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 3x2Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 4392016266815066196}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00083869504, y: -0.008068926, z: 0.006377383, w: 0.9999468}
-  m_LocalPosition: {x: 0.02, y: -0.159, z: 0.015}
+  m_LocalPosition: {x: 0.364, y: -0.266, z: 0.015}
   m_LocalScale: {x: 1.02, y: 1.05, z: 4.41}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102,8 +102,8 @@ GameObject:
   - component: {fileID: 3315079628845652911}
   - component: {fileID: 4670487793425380447}
   - component: {fileID: 1442667574176109506}
-  - component: {fileID: 3452917082767539833}
-  m_Layer: 0
+  - component: {fileID: 7647897946226657462}
+  m_Layer: 3
   m_Name: Lodge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,8 +119,8 @@ Transform:
   m_GameObject: {fileID: 8134053541327837149}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00044716004, y: 0.008103336, z: -0.055096574, w: 0.9984481}
-  m_LocalPosition: {x: -4.92, y: 3.97, z: -0.08}
-  m_LocalScale: {x: 5.1141715, y: 5.2063594, z: 5.0376}
+  m_LocalPosition: {x: -5.3436, y: 3.6768, z: -0.0816}
+  m_LocalScale: {x: 5.0175138, y: 5.1277432, z: 5.0376}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1159653315434691802}
@@ -198,14 +198,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
   itemName: Lodge
-  size: {x: 3, y: 2}
+  size: {x: 3, y: 0}
   cost: 2500
   incomeGeneration: 0
   maintenanceCost: 0
   employeeRate: 0
   itemtype: Room
   gridPosition: {x: 0, y: 0}
---- !u!60 &3452917082767539833
+--- !u!60 &7647897946226657462
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -235,15 +235,15 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.23, y: 0.93}
+    pivot: {x: 0.20283855, y: 0.64995337}
+    oldSize: {x: 1.21, y: 0.9}
     newSize: {x: 1.23, y: 0.93}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -251,40 +251,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.6102198, y: 0.22732697}
-      - {x: 0.15932305, y: 0.45154837}
-      - {x: 0.13089524, y: 0.45859143}
-      - {x: 0.091167696, y: 0.45169345}
-      - {x: -0.34015384, y: 0.2316136}
-      - {x: -0.34022582, y: 0.08030114}
-      - {x: -0.36976415, y: 0.07969691}
-      - {x: -0.37026724, y: 0.07037922}
-      - {x: -0.3798897, y: 0.06937055}
-      - {x: -0.3801528, y: 0.04012574}
-      - {x: -0.41984046, y: 0.040369574}
-      - {x: -0.41988182, y: 0.050200474}
-      - {x: -0.45980215, y: 0.049929705}
-      - {x: -0.45994267, y: 0.030218106}
-      - {x: -0.48981577, y: 0.029977983}
-      - {x: -0.49031612, y: 0.02032196}
-      - {x: -0.49996188, y: 0.0196998}
-      - {x: -0.5004472, y: -0.009517393}
-      - {x: -0.50999945, y: -0.010452356}
-      - {x: -0.51044756, y: -0.039920382}
-      - {x: -0.5290282, y: -0.03969505}
-      - {x: -0.5308605, y: -0.04926491}
-      - {x: -0.5496044, y: -0.05042476}
-      - {x: -0.55028564, y: -0.059981257}
-      - {x: -0.58957565, y: -0.05982964}
-      - {x: -0.59034026, y: -0.07004648}
-      - {x: -0.59955555, y: -0.070306435}
-      - {x: -0.6002547, y: -0.08068068}
-      - {x: -0.60855347, y: -0.083541535}
-      - {x: -0.615, y: -0.21499999}
-      - {x: -0.6136845, y: -0.23475964}
-      - {x: -0.16049078, y: -0.46295807}
-      - {x: -0.08451014, y: -0.48140413}
-      - {x: 0.155, y: -0.36499998}
-      - {x: 0.61126345, y: -0.115443274}
-      - {x: 0.615, y: -0.105}
+    - - {x: 0.48338115, y: -0.0016098265}
+      - {x: 0.4453051, y: -0.031948272}
+      - {x: 0.2841944, y: -0.11940196}
+      - {x: 0.15490478, y: -0.18549365}
+      - {x: -0.12290365, y: -0.32392552}
+      - {x: 0.04994344, y: -0.41706517}
+      - {x: 0.23605014, y: -0.515095}
+      - {x: 0.7018617, y: -0.28322712}
+      - {x: 0.805186, y: -0.2309939}
+      - {x: 0.8784616, y: -0.1824829}
+      - {x: 0.62280494, y: -0.09753745}
   m_UseDelaunayMesh: 1
