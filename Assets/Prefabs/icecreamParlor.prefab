@@ -108,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
   itemName: IceCreamParlour
   size: {x: 1, y: 1}
-  cost: 250
+  cost: 750
   incomeGeneration: 175
   maintenanceCost: 20
   employeeRate: 15
