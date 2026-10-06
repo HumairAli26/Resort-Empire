@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Lodge
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
   width: 3
-  height: 1
+  height: 0
   itemName: Lodge
   cost: 2500
   itemIcon: {fileID: -5525988815569143590, guid: 9ebbeb475380c1e438a5dd7fd9e3556c, type: 3}
   itemPrefab: {fileID: 8134053541327837149, guid: 93aa613e5ca99a4499629aa5e8441213, type: 3}
-  size: {x: 3, y: 1}
+  size: {x: 3, y: 0}
   itemtype: Room
