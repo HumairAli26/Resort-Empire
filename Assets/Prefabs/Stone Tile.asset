@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
   width: 1
   height: 1
-  itemName: 
-  cost: 0
-  itemIcon: {fileID: 0}
-  itemPrefab: {fileID: 0}
+  itemName: Stone Tile
+  cost: 50
+  itemIcon: {fileID: -5744802998758261289, guid: 76928f9ec23b1f64e9e95f94291e4ed2, type: 3}
+  itemPrefab: {fileID: 1143697669936898284, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
   size: {x: 1, y: 1}
-  itemtype: 
+  itemtype: WalkableTile

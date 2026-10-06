@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e795be7153bcc314c9c895874310fdb9, type: 3}
-  m_Name: Icecream Parlour
+  m_Name: Taco Stand
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
   width: 1
-  height: 1
-  itemName: Icecream Parlour
-  cost: 750
-  itemIcon: {fileID: -855298285791758126, guid: 5db99c5bb73b83840ace47465cbd6ff3, type: 3}
-  itemPrefab: {fileID: 1240098503258918212, guid: 8d93f435904b9454b920492fec6fca5e, type: 3}
-  size: {x: 1, y: 1}
+  height: 0
+  itemName: Taco Stand
+  cost: 2500
+  itemIcon: {fileID: -855298285791758126, guid: 888b814c0e6b61c469eb97595ed403a2, type: 3}
+  itemPrefab: {fileID: 6725826074282635007, guid: 4f671268cceacdf40904a855bf55af34, type: 3}
+  size: {x: 1, y: 0}
   itemtype: Facility

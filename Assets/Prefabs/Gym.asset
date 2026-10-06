@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e795be7153bcc314c9c895874310fdb9, type: 3}
   m_Name: Gym
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
-  width: 1
-  height: 1
-  itemName: 
-  cost: 0
-  itemIcon: {fileID: 0}
-  itemPrefab: {fileID: 0}
-  size: {x: 1, y: 1}
-  itemtype: 
+  width: 2
+  height: 0
+  itemName: Gym
+  cost: 1500
+  itemIcon: {fileID: 2619591857597635248, guid: b5fe585c8ac0a8d4e9e259538f19dbb4, type: 3}
+  itemPrefab: {fileID: 1953699053170598895, guid: f803a6a5771f1404fa0221cdc5d0ef57, type: 3}
+  size: {x: 2, y: 0}
+  itemtype: Facility
