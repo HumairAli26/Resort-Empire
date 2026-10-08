@@ -275,3 +275,58 @@ Received Import Request.
 Start importing Assets/Scenes/Playable.unity using Guid(0391cbbffe6aef649a1e3fe1e819782c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '195439653a8113f466bfe9db64e35a31') in 0.9995902 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 554.359707 seconds.
+  path: Assets/sprites/Mr. Smith
+  artifactKey: Guid(e2cf6b9c3b88cf24d8cef2221241c59e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Mr. Smith using Guid(e2cf6b9c3b88cf24d8cef2221241c59e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd99089e4f73225b5078f19f97bff6428') in 0.0195031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/sprites/Mr. Smith/7.png
+  artifactKey: Guid(0608494ef0ce4eb429f34fff3268ce08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Mr. Smith/7.png using Guid(0608494ef0ce4eb429f34fff3268ce08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '7c63bf62bfad566a6cd2f80a4ef6afcc') in 0.2240369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/sprites/Mr. Smith/9.png
+  artifactKey: Guid(a2f35beb6569b8a4889dc7b0df15ea3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Mr. Smith/9.png using Guid(a2f35beb6569b8a4889dc7b0df15ea3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '030be557da7c3daed814ebbf9103f053') in 0.0331623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/sprites/Mr. Smith/2.png
+  artifactKey: Guid(61a1bfc36dac7f745ba728e6b9347df5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Mr. Smith/2.png using Guid(61a1bfc36dac7f745ba728e6b9347df5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c38a6eec9547f211d34ffa2a597ac5d') in 0.0353946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/sprites/Mr. Smith/5.png
+  artifactKey: Guid(23affb34855fe16488dde1ce00920d37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Mr. Smith/5.png using Guid(23affb34855fe16488dde1ce00920d37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32f3fe9b258e364932ca1570971a346b') in 0.0400399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.664752 seconds.
+  path: Assets/sprites/Mr. Smith/8.png
+  artifactKey: Guid(88a4f9dad1e69364985f96505385536b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprites/Mr. Smith/8.png using Guid(88a4f9dad1e69364985f96505385536b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67a33e894af430a699bf6e0ce2f35d2f') in 0.0365922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

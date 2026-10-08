@@ -588,6 +588,24 @@ public class CrossPlatformPlacement : MonoBehaviour
             );
         }
 
+        if (selectedItemData.isWalkable)
+        {
+            // Register this cell (or all cells covered by its width/height) as a walkable path
+            for (int x = 0; x < selectedItemData.width; x++)
+            {
+                for (int y = 0; y < selectedItemData.height; y++)
+                {
+                    Vector2Int pathCell = new Vector2Int(targetCell.x + x, targetCell.y + y);
+                    
+                    // Send this to your GridManager or a PathRegistry class
+                    if (gridManager != null)
+                    {
+                        gridManager.RegisterWalkableTile(pathCell);
+                    }
+                }
+            }
+        }
+
 
         // -----------------------------------------------------
         // MARK GRID FOOTPRINT AS OCCUPIED
