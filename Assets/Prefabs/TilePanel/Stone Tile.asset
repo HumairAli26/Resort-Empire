@@ -20,3 +20,4 @@ MonoBehaviour:
   itemPrefab: {fileID: 1143697669936898284, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
   size: {x: 1, y: 1}
   itemtype: WalkableTile
+  isWalkable: 1

@@ -8,11 +8,13 @@ public class CustomerSpawner : MonoBehaviour
     [Header("Spawn Settings")]
     public float spawnInterval = 5f;
     public int maxNPCs = 10;
+    public int minCash = 60;
+    public int maxCash = 180;
 
     [Header("Resort Entry Settings")]
     public Grid grid;
     public GridManager gridManager;
-    public Vector2Int resortEntryCell; // The grid coordinate of the resort entrance/gate
+    public Vector2Int resortEntryCell;
 
     private int currentNPCs = 0;
 
@@ -23,50 +25,27 @@ public class CustomerSpawner : MonoBehaviour
 
     private void SpawnNPC()
     {
-        if (npcPrefab == null)
-        {
-            Debug.LogWarning("NPC Prefab is not assigned!");
-            return;
-        }
+        if (npcPrefab == null) { Debug.LogWarning("NPC Prefab is not assigned!"); return; }
+        if (currentNPCs >= maxNPCs) return;
 
-        if (currentNPCs >= maxNPCs)
-        {
-            return;
-        }
-
-        // Spawns outside the grid at the spawner's transform position
-        GameObject newNPC = Instantiate(
-            npcPrefab,
-            transform.position,
-            Quaternion.identity
-        );
-
+        GameObject newNPC = Instantiate(npcPrefab, transform.position, Quaternion.identity);
         currentNPCs++;
 
-        CustomerMovement npcMovement = newNPC.GetComponent<CustomerMovement>();
-
-        if (npcMovement != null)
+        var move = newNPC.GetComponent<CustomerMovement>();
+        var brain = newNPC.GetComponent<GuestBrain>();
+        if (move == null || brain == null)
         {
-            npcMovement.SetSpawner(this);
-
-            // Fetch current walkable path array from the GridManager
-            Vector2Int[] walkablePaths = gridManager != null ? gridManager.GetWalkablePathArray() : new Vector2Int[0];
-
-            // Convert the grid entry cell to world position
-            Vector3 entryWorldPos = grid != null ? grid.GetCellCenterWorld(new Vector3Int(resortEntryCell.x, resortEntryCell.y, 0)) : transform.position;
-
-            // Initialize the customer's route (Outside spawn -> Entry Gate -> Walkable Paths)
-            npcMovement.InitializeRoute(transform.position, entryWorldPos, walkablePaths);
+            Debug.LogWarning("NPC prefab needs CustomerMovement and GuestBrain.");
+            return;
         }
+
+        Vector3 entryWorld = grid.GetCellCenterWorld(new Vector3Int(resortEntryCell.x, resortEntryCell.y, 0));
+        move.Setup(this, grid, gridManager);
+        brain.Init(entryWorld, transform.position, Random.Range(minCash, maxCash));
     }
 
     public void NPCFinished(CustomerMovement npc)
     {
-        currentNPCs--;
-
-        if (currentNPCs < 0)
-        {
-            currentNPCs = 0;
-        }
+        currentNPCs = Mathf.Max(0, currentNPCs - 1);
     }
 }

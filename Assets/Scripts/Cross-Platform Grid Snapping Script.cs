@@ -26,7 +26,6 @@ public class CrossPlatformPlacement : MonoBehaviour
 
     private Collider2D[] previewColliders;
 
-
     // =========================================================
     // UPDATE
     // =========================================================
@@ -41,7 +40,6 @@ public class CrossPlatformPlacement : MonoBehaviour
         if (Pointer.current == null)
             return;
 
-
         // -----------------------------------------------------
         // RIGHT CLICK = CANCEL
         // -----------------------------------------------------
@@ -53,14 +51,12 @@ public class CrossPlatformPlacement : MonoBehaviour
             return;
         }
 
-
         // -----------------------------------------------------
         // GET POINTER POSITION
         // -----------------------------------------------------
 
         Vector2 screenPosition =
             Pointer.current.position.ReadValue();
-
 
         // -----------------------------------------------------
         // SCREEN → WORLD
@@ -69,10 +65,8 @@ public class CrossPlatformPlacement : MonoBehaviour
         Ray ray =
             mainCamera.ScreenPointToRay(screenPosition);
 
-
         Plane groundPlane =
             new Plane(Vector3.forward, Vector3.zero);
-
 
         if (!groundPlane.Raycast(
                 ray,
@@ -81,13 +75,10 @@ public class CrossPlatformPlacement : MonoBehaviour
             return;
         }
 
-
         Vector3 worldPosition =
             ray.GetPoint(distance);
 
-
         worldPosition.z = 0f;
-
 
         // -----------------------------------------------------
         // WORLD → GRID CELL
@@ -96,10 +87,8 @@ public class CrossPlatformPlacement : MonoBehaviour
         Vector3Int cellPosition =
             grid.WorldToCell(worldPosition);
 
-
         Vector3 snappedPosition =
             grid.GetCellCenterWorld(cellPosition);
-
 
         // -----------------------------------------------------
         // MOVE PREVIEW
@@ -108,11 +97,9 @@ public class CrossPlatformPlacement : MonoBehaviour
         previewObject.transform.position =
             snappedPosition + previewVisualOffset;
 
-
         // Make sure Physics2D immediately knows about
         // the preview's new position.
         Physics2D.SyncTransforms();
-
 
         // -----------------------------------------------------
         // GRID POSITION
@@ -124,12 +111,9 @@ public class CrossPlatformPlacement : MonoBehaviour
                 cellPosition.y
             );
 
-
         // -----------------------------------------------------
         // CHECK 1:
         // GRID FOOTPRINT
-        //
-        // Example:
         //
         // 3 × 1
         // X X X
@@ -150,7 +134,6 @@ public class CrossPlatformPlacement : MonoBehaviour
                 selectedItemData.height
             );
 
-
         // -----------------------------------------------------
         // CHECK 2:
         // ACTUAL COLLIDER SHAPE
@@ -159,7 +142,6 @@ public class CrossPlatformPlacement : MonoBehaviour
         bool colliderIsFree =
             IsColliderOverlapFree();
 
-
         // -----------------------------------------------------
         // FINAL RESULT
         // -----------------------------------------------------
@@ -167,7 +149,6 @@ public class CrossPlatformPlacement : MonoBehaviour
         bool canPlace =
             gridIsFree &&
             colliderIsFree;
-
 
         // -----------------------------------------------------
         // CHANGE PREVIEW COLOR
@@ -199,7 +180,6 @@ public class CrossPlatformPlacement : MonoBehaviour
             }
         }
 
-
         // -----------------------------------------------------
         // CLICK / TAP
         // -----------------------------------------------------
@@ -213,10 +193,9 @@ public class CrossPlatformPlacement : MonoBehaviour
                 return;
             }
 
-
             if (canPlace)
             {
-                ConfirmPlacement(gridPosition);
+                PlaceItem(gridPosition);
             }
             else
             {
@@ -227,7 +206,6 @@ public class CrossPlatformPlacement : MonoBehaviour
             }
         }
     }
-
 
     // =========================================================
     // CREATE PREVIEW
@@ -241,7 +219,6 @@ public class CrossPlatformPlacement : MonoBehaviour
             Destroy(previewObject);
         }
 
-
         // Validate data
         if (data == null ||
             data.itemPrefab == null)
@@ -253,14 +230,12 @@ public class CrossPlatformPlacement : MonoBehaviour
             return;
         }
 
-
         // -----------------------------------------------------
         // SAVE SELECTED ITEM
         // -----------------------------------------------------
 
         selectedItemData = data;
         selectedPrefab = data.itemPrefab;
-
 
         // -----------------------------------------------------
         // CREATE PREVIEW
@@ -269,14 +244,12 @@ public class CrossPlatformPlacement : MonoBehaviour
         previewObject =
             Instantiate(selectedPrefab);
 
-
         // -----------------------------------------------------
         // GET SPRITE RENDERER
         // -----------------------------------------------------
 
         previewRenderer =
             previewObject.GetComponentInChildren<SpriteRenderer>();
-
 
         if (previewRenderer != null)
         {
@@ -289,14 +262,12 @@ public class CrossPlatformPlacement : MonoBehaviour
                 );
         }
 
-
         // -----------------------------------------------------
         // GET ALL COLLIDERS FROM PREVIEW
         // -----------------------------------------------------
 
         previewColliders =
             previewObject.GetComponentsInChildren<Collider2D>();
-
 
         if (previewColliders.Length == 0)
         {
@@ -305,7 +276,6 @@ public class CrossPlatformPlacement : MonoBehaviour
                 "Physical overlap detection will be skipped."
             );
         }
-
 
         // -----------------------------------------------------
         // PREVIEW COLLIDERS MUST STAY ENABLED
@@ -321,12 +291,10 @@ public class CrossPlatformPlacement : MonoBehaviour
         Rigidbody2D[] previewRigidbodies =
             previewObject.GetComponentsInChildren<Rigidbody2D>();
 
-
         foreach (Rigidbody2D rb in previewRigidbodies)
         {
             rb.simulated = false;
         }
-
 
         Debug.Log(
             "Selected: " +
@@ -338,14 +306,11 @@ public class CrossPlatformPlacement : MonoBehaviour
         );
     }
 
-
     // =========================================================
     // ACTUAL COLLIDER OVERLAP CHECK
     // =========================================================
     //
     // This checks the REAL collider shape of the preview.
-    //
-    // Therefore:
     //
     // PolygonCollider2D → actual polygon shape
     // BoxCollider2D     → actual box shape
@@ -360,7 +325,6 @@ public class CrossPlatformPlacement : MonoBehaviour
         if (previewObject == null)
             return false;
 
-
         // No colliders
         if (previewColliders == null ||
             previewColliders.Length == 0)
@@ -368,10 +332,8 @@ public class CrossPlatformPlacement : MonoBehaviour
             return true;
         }
 
-
         // Make sure physics sees the current preview position
         Physics2D.SyncTransforms();
-
 
         // -----------------------------------------------------
         // CREATE CONTACT FILTER
@@ -380,15 +342,13 @@ public class CrossPlatformPlacement : MonoBehaviour
         ContactFilter2D filter =
             new ContactFilter2D();
 
-
         filter.useLayerMask = true;
+
         filter.layerMask =
             placementBlockingLayers;
 
-
         filter.useTriggers =
             blockTriggerColliders;
-
 
         // -----------------------------------------------------
         // TEMP RESULT ARRAY
@@ -396,7 +356,6 @@ public class CrossPlatformPlacement : MonoBehaviour
 
         Collider2D[] results =
             new Collider2D[100];
-
 
         // -----------------------------------------------------
         // CHECK EVERY COLLIDER ON THE PREVIEW
@@ -407,22 +366,19 @@ public class CrossPlatformPlacement : MonoBehaviour
             if (previewCollider == null)
                 continue;
 
-
             if (!previewCollider.enabled)
                 continue;
-
 
             // Ask Unity:
             //
             // "What other colliders overlap this exact
             //  collider shape?"
-            //
+
             int count =
                 previewCollider.Overlap(
                     filter,
                     results
                 );
-
 
             // -------------------------------------------------
             // CHECK RESULTS
@@ -433,10 +389,8 @@ public class CrossPlatformPlacement : MonoBehaviour
                 Collider2D other =
                     results[i];
 
-
                 if (other == null)
                     continue;
-
 
                 // -------------------------------------------------
                 // IGNORE OUR OWN PREVIEW COLLIDERS
@@ -448,14 +402,12 @@ public class CrossPlatformPlacement : MonoBehaviour
                     continue;
                 }
 
-
                 // Extra safety check
                 if (other.transform.root ==
                     previewObject.transform.root)
                 {
                     continue;
                 }
-
 
                 // -------------------------------------------------
                 // IGNORE TRIGGERS IF DISABLED
@@ -467,7 +419,6 @@ public class CrossPlatformPlacement : MonoBehaviour
                     continue;
                 }
 
-
                 // -------------------------------------------------
                 // FOUND REAL OBJECT
                 // -------------------------------------------------
@@ -477,22 +428,27 @@ public class CrossPlatformPlacement : MonoBehaviour
                     other.gameObject.name
                 );
 
-
                 return false;
             }
         }
-
 
         // Nothing overlaps
         return true;
     }
 
-
     // =========================================================
-    // CONFIRM PLACEMENT
+    // PLACE ITEM
+    // =========================================================
+    //
+    // IMPORTANT:
+    // The preview is NOT destroyed here.
+    //
+    // The selectedPrefab and selectedItemData are NOT cleared.
+    //
+    // This allows the player to place multiple copies.
     // =========================================================
 
-    private void ConfirmPlacement(
+    private void PlaceItem(
         Vector2Int targetCell)
     {
         // -----------------------------------------------------
@@ -511,7 +467,6 @@ public class CrossPlatformPlacement : MonoBehaviour
             return;
         }
 
-
         // -----------------------------------------------------
         // CHECK COLLIDER AGAIN
         // -----------------------------------------------------
@@ -526,7 +481,6 @@ public class CrossPlatformPlacement : MonoBehaviour
             return;
         }
 
-
         // -----------------------------------------------------
         // CHECK MONEY
         // -----------------------------------------------------
@@ -538,9 +492,13 @@ public class CrossPlatformPlacement : MonoBehaviour
                 "Cannot afford this item!"
             );
 
+            // IMPORTANT:
+            // We do NOT cancel placement.
+            //
+            // The item stays in hand so the player can
+            // press OK or choose another action.
             return;
         }
-
 
         // -----------------------------------------------------
         // WORLD POSITION
@@ -553,12 +511,10 @@ public class CrossPlatformPlacement : MonoBehaviour
                 0
             );
 
-
         Vector3 worldPosition =
             grid.GetCellCenterWorld(
                 cellPosition
             ) + previewVisualOffset;
-
 
         // -----------------------------------------------------
         // CREATE ACTUAL BUILDING
@@ -571,14 +527,12 @@ public class CrossPlatformPlacement : MonoBehaviour
                 previewObject.transform.rotation
             );
 
-
         // -----------------------------------------------------
         // INITIALIZE PLACEABLE ITEM
         // -----------------------------------------------------
 
         PlaceableItem placeable =
             placedBuilding.GetComponent<PlaceableItem>();
-
 
         if (placeable != null)
         {
@@ -588,24 +542,35 @@ public class CrossPlatformPlacement : MonoBehaviour
             );
         }
 
+        // -----------------------------------------------------
+        // REGISTER WALKABLE AREA
+        // -----------------------------------------------------
+
         if (selectedItemData.isWalkable)
         {
-            // Register this cell (or all cells covered by its width/height) as a walkable path
-            for (int x = 0; x < selectedItemData.width; x++)
+            for (int x = 0;
+                 x < selectedItemData.width;
+                 x++)
             {
-                for (int y = 0; y < selectedItemData.height; y++)
+                for (int y = 0;
+                     y < selectedItemData.height;
+                     y++)
                 {
-                    Vector2Int pathCell = new Vector2Int(targetCell.x + x, targetCell.y + y);
-                    
-                    // Send this to your GridManager or a PathRegistry class
+                    Vector2Int pathCell =
+                        new Vector2Int(
+                            targetCell.x + x,
+                            targetCell.y + y
+                        );
+
                     if (gridManager != null)
                     {
-                        gridManager.RegisterWalkableTile(pathCell);
+                        gridManager.RegisterWalkableTile(
+                            pathCell
+                        );
                     }
                 }
             }
         }
-
 
         // -----------------------------------------------------
         // MARK GRID FOOTPRINT AS OCCUPIED
@@ -617,7 +582,6 @@ public class CrossPlatformPlacement : MonoBehaviour
             selectedItemData.height
         );
 
-
         Debug.Log(
             "Placed: " +
             placedBuilding.name +
@@ -625,20 +589,52 @@ public class CrossPlatformPlacement : MonoBehaviour
             worldPosition
         );
 
-
         // -----------------------------------------------------
-        // DESTROY PREVIEW
+        // IMPORTANT:
+        // DO NOT DESTROY PREVIEW
+        // DO NOT CLEAR SELECTED PREFAB
+        // DO NOT CLEAR SELECTED ITEM DATA
+        //
+        // The player is still holding the item.
+        // The preview simply moves to the next location.
         // -----------------------------------------------------
 
-        Destroy(previewObject);
+        // Make sure preview is still active
+        if (previewObject != null)
+        {
+            previewObject.SetActive(true);
+        }
+    }
+
+    // =========================================================
+    // OK / DONE BUTTON
+    // =========================================================
+    //
+    // Connect this function to your UI OK/Done button.
+    //
+    // When pressed:
+    // - Placement mode ends
+    // - Preview disappears
+    // - Selected item is cleared
+    // =========================================================
+
+    public void ConfirmPlacement()
+    {
+        if (previewObject != null)
+        {
+            Destroy(previewObject);
+        }
 
         previewObject = null;
         selectedPrefab = null;
         selectedItemData = null;
         previewRenderer = null;
         previewColliders = null;
-    }
 
+        Debug.Log(
+            "Placement mode finished."
+        );
+    }
 
     // =========================================================
     // CANCEL PLACEMENT
@@ -651,13 +647,11 @@ public class CrossPlatformPlacement : MonoBehaviour
             Destroy(previewObject);
         }
 
-
         previewObject = null;
         selectedPrefab = null;
         selectedItemData = null;
         previewRenderer = null;
         previewColliders = null;
-
 
         Debug.Log(
             "Placement cancelled."

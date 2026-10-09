@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 4670487793425380447}
   - component: {fileID: 1442667574176109506}
   - component: {fileID: 7647897946226657462}
+  - component: {fileID: -8909979778024907298}
   m_Layer: 3
   m_Name: Lodge
   m_TagString: Untagged
@@ -173,7 +174,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5525988815569143590, guid: 9ebbeb475380c1e438a5dd7fd9e3556c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -263,3 +264,20 @@ PolygonCollider2D:
       - {x: 1.0980213, y: -0.2617203}
       - {x: 0.72902274, y: -0.05298734}
   m_UseDelaunayMesh: 1
+--- !u!114 &-8909979778024907298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8134053541327837149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80dfdca6c8881346a2c8c657e53212b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Facility
+  serves: 1
+  price: 50
+  restorePerSecond: 30
+  capacity: 3
+  useSpot: {fileID: 0}

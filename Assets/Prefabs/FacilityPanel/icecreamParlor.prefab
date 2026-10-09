@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2551087067617289966}
   - component: {fileID: 4067177558646085658}
   - component: {fileID: 4262362811778336384}
+  - component: {fileID: -5858641193436633790}
   m_Layer: 3
   m_Name: icecreamParlor
   m_TagString: Untagged
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_MaskInteraction: 0
   m_Sprite: {fileID: -855298285791758126, guid: 5db99c5bb73b83840ace47465cbd6ff3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -178,6 +179,23 @@ PolygonCollider2D:
       - {x: 0.10394658, y: -0.20744964}
       - {x: 0.09958371, y: -0.20754679}
   m_UseDelaunayMesh: 1
+--- !u!114 &-5858641193436633790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240098503258918212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80dfdca6c8881346a2c8c657e53212b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Facility
+  serves: 2
+  price: 30
+  restorePerSecond: 30
+  capacity: 3
+  useSpot: {fileID: 0}
 --- !u!1 &5508925309035823622
 GameObject:
   m_ObjectHideFlags: 0
