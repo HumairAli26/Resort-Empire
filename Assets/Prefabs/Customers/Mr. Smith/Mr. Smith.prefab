@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2181769874027865829}
   - component: {fileID: 8397066034213049186}
   - component: {fileID: 4690764860338508359}
+  - component: {fileID: 2199636439936244901}
+  - component: {fileID: 443210029406981442}
   m_Layer: 0
   m_Name: Mr. Smith
   m_TagString: Untagged
@@ -80,7 +82,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: -855298285791758126, guid: 2f01c5576279979409b709aef86b0178, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -105,3 +107,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomerMovement
   moveSpeed: 2
+--- !u!114 &2199636439936244901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3204716127876159060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d378c3c28338974dacf6c6d6c8dd4b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GuestBrain
+  seekThreshold: 45
+  leaveHappiness: 18
+  graceSeconds: 15
+  decayPerSecond: {x: 1.4, y: 2.6}
+  debugLog: 1
+--- !u!95 &443210029406981442
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3204716127876159060}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2c232b69a7c23004a90010789bf2dfff, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

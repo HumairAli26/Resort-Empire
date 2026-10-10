@@ -9,7 +9,6 @@ public class EconomyManager : MonoBehaviour
     private int currentBalance;
 
     public int CurrentBalance => currentBalance;
-
     // Fires whenever balance changes, passing the new value
     public event Action<int> OnBalanceChanged;
 
@@ -50,5 +49,15 @@ public class EconomyManager : MonoBehaviour
         if (amount <= 0) return;
         currentBalance += amount;
         OnBalanceChanged?.Invoke(currentBalance);
+    }
+
+    private void OnEnable()
+    {
+        GuestBrain.OnGuestPaid += AddMoney;
+    }
+
+    private void OnDisable()
+    {
+        GuestBrain.OnGuestPaid -= AddMoney;
     }
 }
