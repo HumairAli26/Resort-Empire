@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 38c7e76c158a18a4fb3a28bd9b4d8a1e
+guid: 7e8fb3a1d2b3be940a49074ce214c702
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 200029731781800041
-    second: Cottage_0
+      213: -877753461677532435
+    second: 745_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,23 +178,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cottage_0
+      name: 745_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 25
-        width: 98
-        height: 76
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5372791}
+        x: 0
+        y: 0
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 960fe533bf5a6c200800000000000000
-      internalID: 200029731781800041
+      spriteID: dea575c80e791d3f0800000000000000
+      internalID: -877753461677532435
       vertices: []
       indices: 
       edges: []
@@ -203,7 +203,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: db3486c9b2b21f14aa1ff07294e3cb9f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -213,7 +213,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cottage_0: 200029731781800041
+      745_0: -877753461677532435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
