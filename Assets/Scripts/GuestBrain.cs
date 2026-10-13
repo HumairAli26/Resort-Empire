@@ -1,43 +1,106 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
-/// Needs + decision making. Sits on the customer prefab next to CustomerMovement.
+/// Likes-driven guest. Day visitors only use facilities; overnight guests also book a room.
+/// Sits on the customer prefab next to CustomerMovement.
 [RequireComponent(typeof(CustomerMovement))]
 public class GuestBrain : MonoBehaviour
 {
-    enum State { Entering, Idle, Navigating, Wandering, Using, Leaving }
+    enum State { Entering, CheckingIn, Idle, Navigating, Wandering, Using, Leaving }
+
+    [Serializable]
+    public class Like
+    {
+        public FacilityType type;
+        public float strength;   // 0.6 = mild fan, 1.4 = obsessed
+        public float craving;    // 0..100, rises over time, drops when they visit
+        public int visits;
+    }
 
     public static event Action<int> OnGuestPaid;   // EconomyManager subscribes
 
-    [Header("Tuning")]
-    public float seekThreshold = 45f;
-    public float leaveHappiness = 18f;
-    public float graceSeconds = 15f;
-    public Vector2 decayPerSecond = new(1.4f, 2.6f);
-    public bool debugLog = true;   // turn off once it works
+    [Header("Behaviour")]
+    public float cravingPerSecond = 3f;
+    public float seekThreshold = 40f;
+    public float leaveMood = 20f;
+    public float graceSeconds = 20f;
+
+    [Header("Visit length (seconds)")]
+    public Vector2 dayVisitSeconds = new(90f, 180f);
+    public Vector2 overnightStaySeconds = new(150f, 300f);
+    public bool debugLog = true;
+
+    [Header("Runtime (read only)")]
+    public List<Like> likes = new();
+    public bool isOvernight;
 
     CustomerMovement move;
-    readonly float[] needs = new float[4];
-    readonly float[] decay = new float[4];
     State state = State.Entering;
-    Facility target;
+    Facility target, bookedRoom;
+    Like targetLike;
     Vector3 entryPoint, exitPoint;
     int cash;
-    float age, idleTimer;
+    float age, idleTimer, useTimer, visitLimit;
 
-    public float Happiness { get { float s = 0; foreach (var n in needs) s += n; return s / needs.Length; } }
+    public float Mood
+    {
+        get
+        {
+            if (likes.Count == 0) return 100f;
+            float s = 0; foreach (var l in likes) s += l.craving;
+            return 100f - s / likes.Count;
+        }
+    }
 
-    public void Init(Vector3 entry, Vector3 exit, int startCash)
+    /// Random liked facility types. Lodging (Room, Lodge) is never a "like".
+    public static List<Like> RollLikes(List<FacilityType> available, int minLikes, int maxLikes, Vector2 strengthRange)
+    {
+        var pool = new List<FacilityType>(available);
+        pool.RemoveAll(Facility.IsLodgingType);
+        int n = Mathf.Min(UnityEngine.Random.Range(minLikes, maxLikes + 1), pool.Count);
+        var result = new List<Like>();
+        for (int i = 0; i < n; i++)
+        {
+            int idx = UnityEngine.Random.Range(0, pool.Count);
+            result.Add(new Like
+            {
+                type = pool[idx],
+                strength = UnityEngine.Random.Range(strengthRange.x, strengthRange.y),
+                craving = UnityEngine.Random.Range(0f, 30f)
+            });
+            pool.RemoveAt(idx);
+        }
+        return result;
+    }
+
+    /// `room` must already be reserved with room.TryEnter() by the spawner; null = day visitor.
+    public void Init(Vector3 entry, Vector3 exit, int startCash, List<Like> guestLikes, Facility room)
     {
         move = GetComponent<CustomerMovement>();
         entryPoint = entry; exitPoint = exit; cash = startCash;
-        for (int i = 0; i < needs.Length; i++)
-        {
-            needs[i] = UnityEngine.Random.Range(60f, 100f);
-            decay[i] = UnityEngine.Random.Range(decayPerSecond.x, decayPerSecond.y);
+        likes = guestLikes; bookedRoom = room; isOvernight = room != null;
+        var r = isOvernight ? overnightStaySeconds : dayVisitSeconds;
+        visitLimit = UnityEngine.Random.Range(r.x, r.y);
+        move.WalkDirect(entryPoint, OnEnteredResort);
+    }
+
+    void OnEnteredResort()
+    {
+        if (bookedRoom == null) { state = State.Idle; return; }
+        state = State.CheckingIn;
+        if (!move.WalkTo(bookedRoom.UsePosition, OnCheckedIn))
+        {   // can't reach the room: give it up and just be a day visitor
+            bookedRoom.Leave(); bookedRoom = null; isOvernight = false; state = State.Idle;
         }
-        // Outside -> gate in a straight line, then the resort loop begins.
-        move.WalkDirect(entryPoint, () => state = State.Idle);
+    }
+
+    void OnCheckedIn()
+    {
+        cash -= bookedRoom.price;
+        bookedRoom.RecordVisit(bookedRoom.price);
+        OnGuestPaid?.Invoke(bookedRoom.price);
+        state = State.Idle; idleTimer = 0.5f;
     }
 
     void Update()
@@ -47,11 +110,16 @@ public class GuestBrain : MonoBehaviour
         age += dt;
 
         if (state != State.Using && state != State.Entering)
-            for (int i = 0; i < needs.Length; i++) needs[i] = Mathf.Max(0, needs[i] - decay[i] * dt);
+            foreach (var l in likes)
+                l.craving = Mathf.Min(100f, l.craving + l.strength * cravingPerSecond * dt);
 
-        if (state != State.Leaving && state != State.Entering && age > graceSeconds
-            && (cash < 5 || Happiness < leaveHappiness))
-            StartLeaving();
+        if (state != State.Leaving && state != State.Entering && state != State.CheckingIn)
+        {
+            bool broke = !isOvernight && cash < 5;                 // room already paid for
+            bool unhappy = age > graceSeconds && Mood < leaveMood;
+            bool timeUp = age >= visitLimit && (state == State.Idle || state == State.Wandering);
+            if (broke || unhappy || timeUp) StartLeaving();
+        }
 
         if (state == State.Idle) TickIdle(dt);
         else if (state == State.Using) TickUsing(dt);
@@ -63,45 +131,55 @@ public class GuestBrain : MonoBehaviour
         if (idleTimer > 0) return;
         idleTimer = 1f;
 
-        // Try every need below the threshold, lowest first, until one has a usable facility.
-        var order = new int[] { 0, 1, 2, 3 };
-        Array.Sort(order, (a, b) => needs[a].CompareTo(needs[b]));
-        foreach (int n in order)
+        var order = new List<Like>(likes);
+        order.Sort((a, b) => (b.craving * b.strength).CompareTo(a.craving * a.strength));
+
+        foreach (var l in order)
         {
-            if (needs[n] >= seekThreshold) break;
-            var f = FacilityRegistry.FindClosest((NeedType)n, transform.position, cash);
-            if (debugLog) Debug.Log($"[Guest] need {(NeedType)n}={needs[n]:F0} cash={cash} facility={(f ? f.name : "NONE")} registered={FacilityRegistry.Count}", this);
+            if (l.craving < seekThreshold) break;
+            var f = FacilityRegistry.FindClosest(l.type, transform.position, cash);
+            if (debugLog) Debug.Log($"[Guest] likes {l.type} craving={l.craving:F0} cash={cash} facility={(f ? f.name : "NONE")}", this);
             if (f == null || !f.TryEnter()) continue;
-            if (move.WalkTo(f.UsePosition, OnArrivedAtFacility)) { target = f; state = State.Navigating; return; }
+            if (move.WalkTo(f.UsePosition, OnArrivedAtFacility)) { target = f; targetLike = l; state = State.Navigating; return; }
             if (debugLog) Debug.LogWarning("[Guest] no walkable route to " + f.name, this);
-            f.Leave();   // unreachable: release the slot
+            f.Leave();
         }
-        // Nothing urgent (or nothing available): stroll somewhere.
         if (move.WalkToRandomTile(() => state = State.Idle)) state = State.Wandering;
     }
 
     void OnArrivedAtFacility()
     {
         cash -= target.price;
+        target.RecordVisit(target.price);
         OnGuestPaid?.Invoke(target.price);
+        useTimer = target.useSeconds;
         state = State.Using;
     }
 
     void TickUsing(float dt)
     {
-        int i = (int)target.serves;
-        needs[i] = Mathf.Min(100, needs[i] + target.restorePerSecond * dt);
-        if (needs[i] >= 95) { target.Leave(); target = null; state = State.Idle; idleTimer = 0.5f; }
+        useTimer -= dt;
+        targetLike.craving = Mathf.Max(0f, targetLike.craving - (100f / Mathf.Max(0.1f, target.useSeconds)) * dt);
+        if (useTimer > 0) return;
+
+        targetLike.craving = 0f;
+        targetLike.visits++;
+        target.Leave(); target = null; targetLike = null;
+        state = State.Idle; idleTimer = 0.5f;
     }
 
     void StartLeaving()
     {
         if (target != null) { target.Leave(); target = null; }
+        if (bookedRoom != null) { bookedRoom.Leave(); bookedRoom = null; }   // check out
         state = State.Leaving;
-        // Walk back along the paths to the gate, then straight out and despawn.
         bool ok = move.WalkTo(entryPoint, () => move.WalkDirect(exitPoint, move.Finish));
         if (!ok) move.WalkDirect(exitPoint, move.Finish);
     }
 
-    void OnDestroy() { if (target != null) target.Leave(); }
+    void OnDestroy()
+    {
+        if (target != null) target.Leave();
+        if (bookedRoom != null) bookedRoom.Leave();
+    }
 }
