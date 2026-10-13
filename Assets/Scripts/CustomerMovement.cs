@@ -335,15 +335,12 @@ public class CustomerMovement : MonoBehaviour
 
         if (gridManager == null)
         {
-            Debug.LogWarning(
-                $"{name}: Cannot wander because GridManager is missing."
-            );
+            Debug.LogWarning($"{name}: Cannot wander because GridManager is missing.");
 
             return false;
         }
 
-        Vector2Int[] cells =
-            gridManager.GetWalkablePathArray();
+        Vector2Int[] cells = gridManager.GetWalkablePathArray();
 
         if (cells == null || cells.Length == 0)
         {
@@ -393,15 +390,13 @@ public class CustomerMovement : MonoBehaviour
         // GET TARGET
         // -----------------------------------------------------
 
-        Vector3 target =
-            waypoints.Peek();
+        Vector3 target = waypoints.Peek();
 
         // -----------------------------------------------------
         // DETERMINE DIRECTION
         // -----------------------------------------------------
 
-        Vector3 movementDirection =
-            target - transform.position;
+        Vector3 movementDirection = target - transform.position;
 
         // -----------------------------------------------------
         // MOVE
@@ -426,10 +421,7 @@ public class CustomerMovement : MonoBehaviour
         // CHECK TARGET
         // -----------------------------------------------------
 
-        if (
-            (transform.position - target).sqrMagnitude
-            > 0.0025f
-        )
+        if ((transform.position - target).sqrMagnitude > 0.0025f)
         {
             previousPosition = transform.position;
 
@@ -452,8 +444,7 @@ public class CustomerMovement : MonoBehaviour
         {
             SetIdleAnimation();
 
-            Action callback =
-                onArrived;
+            Action callback = onArrived;
 
             onArrived = null;
 
@@ -477,8 +468,7 @@ public class CustomerMovement : MonoBehaviour
     ///
     /// X movement uses the forward animation.
     /// </summary>
-    private void UpdateWalkingDirection(
-        Vector3 direction)
+    private void UpdateWalkingDirection(Vector3 direction)
     {
         if (animator == null)
         {
@@ -491,11 +481,9 @@ public class CustomerMovement : MonoBehaviour
             return;
         }
 
-        bool walkingBackward =
-            direction.y < -0.01f;
+        bool walkingBackward = direction.y < -0.01f;
 
-        bool walkingForward =
-            direction.y >= -0.01f;
+        bool walkingForward = direction.y >= -0.01f;
 
         // Forward animation
         animator.SetBool(
@@ -565,7 +553,6 @@ public class CustomerMovement : MonoBehaviour
     public void Finish()
     {
         waypoints.Clear();
-
         onArrived = null;
 
         SetIdleAnimation();
@@ -583,11 +570,9 @@ public class CustomerMovement : MonoBehaviour
     // WORLD → CELL
     // =========================================================
 
-    private Vector2Int ToCell(
-        Vector3 world)
+    private Vector2Int ToCell(Vector3 world)
     {
-        Vector3Int cell =
-            grid.WorldToCell(world);
+        Vector3Int cell = grid.WorldToCell(world);
 
         return new Vector2Int(
             cell.x,
@@ -609,17 +594,14 @@ public class CustomerMovement : MonoBehaviour
             return from;
         }
 
-        Vector2Int best =
-            from;
+        Vector2Int best = from;
 
-        int bestDistance =
-            int.MaxValue;
+        int bestDistance = int.MaxValue;
 
         foreach (Vector2Int cell in set)
         {
             int distance =
-                Mathf.Abs(cell.x - from.x) +
-                Mathf.Abs(cell.y - from.y);
+                Mathf.Abs(cell.x - from.x) + Mathf.Abs(cell.y - from.y);
 
             if (distance < bestDistance)
             {

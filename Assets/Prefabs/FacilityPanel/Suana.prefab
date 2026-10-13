@@ -178,8 +178,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c80dfdca6c8881346a2c8c657e53212b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Facility
-  serves: 1
-  price: 100
-  restorePerSecond: 30
+  type: 4
+  displayName: Suana
+  price: 70
   capacity: 1
+  useSeconds: 8
+  appeal: 1
+  level: 1
   useSpot: {fileID: 0}
+  totalVisits: 0
+  totalRevenue: 0
