@@ -28,8 +28,8 @@ public class CustomerSpawner : MonoBehaviour
     [Header("Day visitors vs overnight guests")]
     [Range(0f, 1f), Tooltip("Chance a guest wants a room, if one is free.")]
     public float overnightChance = 0.4f;
-    public Vector2Int dayCash = new(60, 140);
-    public Vector2Int overnightCash = new(150, 350);
+    public Vector2Int dayCash = new(500, 750);
+    public Vector2Int overnightCash = new(1000, 2500);
 
     [Header("Resort Entry Settings")]
     public Grid grid;
