@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5385898986431760992}
   - component: {fileID: 1358262149233074747}
   - component: {fileID: 5373234187320456958}
+  - component: {fileID: -2651271907182530185}
   m_Layer: 3
   m_Name: Bar
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Facility
   type: 8
   displayName: Bar
-  price: 350
+  price: 50
   capacity: 1
   useSeconds: 8
   appeal: 1
@@ -130,8 +131,63 @@ MonoBehaviour:
   itemName: Bar
   size: {x: 1, y: 1}
   cost: 6000
-  incomeGeneration: 350
+  incomeGeneration: 50
   maintenanceCost: 50
   employeeRate: 45
   itemtype: Facility
   gridPosition: {x: 0, y: 0}
+--- !u!60 &-2651271907182530185
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845981382143827413}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.49715137, y: 0.5702143}
+    oldSize: {x: 0.96, y: 0.74}
+    newSize: {x: 0.96, y: 0.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.017854307, y: 0.012639523}
+      - {x: -0.27487257, y: -0.12875584}
+      - {x: -0.40223306, y: -0.18435979}
+      - {x: -0.10823866, y: -0.33951527}
+      - {x: 0.0017136931, y: -0.37624612}
+      - {x: 0.39913234, y: -0.18134603}
+      - {x: 0.27341527, y: -0.12405083}
+      - {x: 0.16856289, y: -0.08104807}
+  m_UseDelaunayMesh: 1

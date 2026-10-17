@@ -181,7 +181,7 @@ MonoBehaviour:
   type: 4
   displayName: Suana
   price: 70
-  capacity: 1
+  capacity: 3
   useSeconds: 8
   appeal: 1
   level: 1

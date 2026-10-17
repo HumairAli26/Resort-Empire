@@ -1,51 +1,44 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SpriteChangerTime : MonoBehaviour
 {
-    public Image uiImage;          // Drag your UI Image GameObject here in the Inspector
-    public Sprite secondarySprite; // Drag the new sprite here in the Inspector
-    public float delaySeconds = 3f; // Time to stay on the original sprite
-    public float returnSeconds = 3f; // Time to stay on the secondary sprite
+    [Header("References")]
+    public GameClockController clock;   // Drag the object with GameClockController here
+    public Image uiImage;               // The UI Image to change
+    public Sprite daySprite;            // Shown from dayStartHour until nightStartHour
+    public Sprite nightSprite;          // Shown from nightStartHour until dayStartHour
 
-    private Sprite originalSprite; // Stores the starting sprite automatically
+    [Header("Switch Times (24-hour)")]
+    [Range(0f, 24f)] public float nightStartHour = 21f; // 9 PM
+    [Range(0f, 24f)] public float dayStartHour = 6f;    // 6 AM
 
-    void Start()
+    private bool isNight;
+    private bool initialized;
+
+    void Update()
     {
-        // Save whatever sprite is currently assigned to the UI image when the game starts
-        if (uiImage != null)
-        {
-            originalSprite = uiImage.sprite;
-        }
+        if (clock == null || uiImage == null || daySprite == null || nightSprite == null)
+            return;
 
-        // Start the infinite sequence loop
-        StartCoroutine(InfiniteSpriteSequence());
+        bool shouldBeNight = IsNight(clock.TimeOfDay);
+
+        // Only change the sprite when the state actually changes
+        if (!initialized || shouldBeNight != isNight)
+        {
+            isNight = shouldBeNight;
+            initialized = true;
+            uiImage.sprite = isNight ? nightSprite : daySprite;
+        }
     }
 
-    IEnumerator InfiniteSpriteSequence()
+    bool IsNight(float time)
     {
-        // Safety check to ensure we have images assigned to prevent crashes/errors
-        if (uiImage == null || secondarySprite == null || originalSprite == null)
-        {
-            Debug.LogError("SpriteChangerTime: Missing Image or Sprite references in the inspector!");
-            yield break; // Exit the coroutine safely
-        }
+        // Night wraps past midnight: e.g. 21:00 -> 24:00 and 0:00 -> 6:00
+        if (nightStartHour > dayStartHour)
+            return time >= nightStartHour || time < dayStartHour;
 
-        // This loop runs endlessly as long as the GameObject is active
-        while (true)
-        {
-            // 1. Wait while showing the original sprite
-            yield return new WaitForSeconds(delaySeconds);
-
-            // 2. Swap to the secondary sprite
-            uiImage.sprite = secondarySprite;
-
-            // 3. Wait while showing the secondary sprite
-            yield return new WaitForSeconds(returnSeconds);
-
-            // 4. Swap back to the original sprite
-            uiImage.sprite = originalSprite;
-        }
+        // Fallback if someone sets night to start before day in the same day
+        return time >= nightStartHour && time < dayStartHour;
     }
 }
