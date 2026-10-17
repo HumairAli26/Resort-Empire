@@ -18,6 +18,6 @@ MonoBehaviour:
   cost: 6000
   itemIcon: {fileID: 3737897332693287829, guid: dae695b3ee6c3d54da9e6a777abf7ecd, type: 3}
   itemPrefab: {fileID: 4845981382143827413, guid: 68971416fe88b9b4fb283502d862c83f, type: 3}
-  size: {x: 1, y: 1}
+  size: {x: 2, y: 0}
   itemtype: Facility
   isWalkable: 0
