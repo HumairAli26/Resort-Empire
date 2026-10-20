@@ -3,6 +3,10 @@ using UnityEngine;
 
 public class CustomerSpawner : MonoBehaviour
 {
+    [Header("Spawn Points")]
+    [Tooltip("Guests spawn at a random one of these. Each is snapped to the nearest grid cell center.")]
+    public Transform[] spawnPoints;
+
     [Header("NPC Settings")]
     [Tooltip("Add as many guest prefabs as you like. One is picked at random for each spawn.")]
     public GameObject[] npcPrefabs;
@@ -71,9 +75,27 @@ public class CustomerSpawner : MonoBehaviour
         return npcPrefabs[lastPrefabIndex];
     }
 
+    /// Random spawn point, skipping empty slots. Returns null if none are valid.
+    Transform PickSpawnPoint()
+    {
+        if (spawnPoints == null || spawnPoints.Length == 0) return null;
+
+        var valid = new List<Transform>();
+        foreach (var p in spawnPoints)
+            if (p != null) valid.Add(p);
+
+        if (valid.Count == 0) return null;
+        return valid[Random.Range(0, valid.Count)];
+    }
+
     private void SpawnNPC()
     {
         if (npcPrefabs == null || npcPrefabs.Length == 0) { Debug.LogWarning("No NPC prefabs assigned!"); return; }
+        if (grid == null) { Debug.LogWarning("Grid is not assigned on the spawner!"); return; }
+
+        Transform spawnPoint = PickSpawnPoint();
+        if (spawnPoint == null) { Debug.LogWarning("No spawn points assigned!"); return; }
+
         int cap = Mathf.Min(maxNPCs, Mathf.CeilToInt(FacilityRegistry.TotalCapacity() * capacityMultiplier));
         if (currentNPCs >= cap) return;
 
@@ -96,7 +118,7 @@ public class CustomerSpawner : MonoBehaviour
             }
         }
 
-        // 3. Spawn.
+        // 3. Spawn at the chosen point, snapped to a grid cell center.
         GameObject prefab = PickPrefab();
         if (prefab == null)
         {
@@ -104,7 +126,11 @@ public class CustomerSpawner : MonoBehaviour
             if (room != null) room.Leave();
             return;
         }
-        GameObject newNPC = Instantiate(prefab, transform.position, Quaternion.identity);
+
+        Vector3Int spawnCell = grid.WorldToCell(spawnPoint.position);
+        Vector3 spawnWorld = grid.GetCellCenterWorld(spawnCell);
+
+        GameObject newNPC = Instantiate(prefab, spawnWorld, Quaternion.identity);
         var move = newNPC.GetComponent<CustomerMovement>();
         var brain = newNPC.GetComponent<GuestBrain>();
         if (move == null || brain == null)
@@ -118,11 +144,13 @@ public class CustomerSpawner : MonoBehaviour
         currentNPCs++;
         Vector3 entryWorld = grid.GetCellCenterWorld(new Vector3Int(resortEntryCell.x, resortEntryCell.y, 0));
         move.Setup(this, grid, gridManager);
-        brain.Init(entryWorld, transform.position, cash, likes, room);
+        brain.Init(entryWorld, spawnWorld, cash, likes, room);
+        GameStatsManager.Instance.AddVisitor();
     }
 
     public void NPCFinished(CustomerMovement npc)
     {
         currentNPCs = Mathf.Max(0, currentNPCs - 1);
+        GameStatsManager.Instance.RemoveVisitor();
     }
 }
