@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2380953868635193670}
   - component: {fileID: 3627353356870713898}
   - component: {fileID: 7408354103822458997}
+  - component: {fileID: -5122389362114039840}
   m_Layer: 3
   m_Name: Gym
   m_TagString: Untagged
@@ -182,9 +183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c80dfdca6c8881346a2c8c657e53212b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Facility
-  type: 3
-  displayName: Gym
-  price: 50
+  type: 7
+  displayName: Arcade
+  price: 200
   capacity: 1
   useSeconds: 8
   appeal: 1
@@ -192,3 +193,23 @@ MonoBehaviour:
   useSpot: {fileID: 0}
   totalVisits: 0
   totalRevenue: 0
+--- !u!114 &-5122389362114039840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953699053170598895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2a66cedcf32b154786c46ce5becb0b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
+  itemName: 
+  size: {x: 1, y: 1}
+  cost: 0
+  incomeGeneration: 0
+  maintenanceCost: 0
+  employeeRate: 0
+  itemtype: 
+  gridPosition: {x: 0, y: 0}
