@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 1295590856222508275}
   - component: {fileID: 2164323048260917423}
   - component: {fileID: -7787674436360316388}
-  m_Layer: 0
+  - component: {fileID: 4228977727638065375}
+  m_Layer: 3
   m_Name: Market
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 524219431389811964}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.04632192, w: 0.9989266}
-  m_LocalPosition: {x: -0.02019, y: -2.8821, z: 0}
-  m_LocalScale: {x: 4.741189, y: 5.48128, z: 4.741189}
+  m_LocalPosition: {x: -0.020817, y: -2.8889, z: 0}
+  m_LocalScale: {x: 4.741189, y: 5.5338025, z: 4.741189}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -107,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
   itemName: Market
   size: {x: 3, y: 0}
-  cost: 12000
+  cost: 14000
   incomeGeneration: 150
   maintenanceCost: 35
   employeeRate: 15
@@ -135,3 +136,58 @@ MonoBehaviour:
   useSpot: {fileID: 0}
   totalVisits: 0
   totalRevenue: 0
+--- !u!60 &4228977727638065375
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524219431389811964}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5128793, y: 0.36643317}
+    oldSize: {x: 1.44, y: 0.97}
+    newSize: {x: 1.44, y: 0.97}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1618318, y: 0.19635075}
+      - {x: -0.30272233, y: 0.12394823}
+      - {x: -0.5957284, y: 0.0077047497}
+      - {x: -0.030761037, y: -0.28546244}
+      - {x: 0.11935104, y: -0.21521616}
+      - {x: 0.56045914, y: -0.0045502353}
+      - {x: 0.26287866, y: 0.14801301}
+      - {x: 0.011803111, y: 0.28368288}
+  m_UseDelaunayMesh: 1
