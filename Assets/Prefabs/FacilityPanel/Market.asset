@@ -15,7 +15,7 @@ MonoBehaviour:
   width: 3
   height: 0
   itemName: Market
-  cost: 12000
+  cost: 14000
   itemIcon: {fileID: -6886366809225412869, guid: e9f8732a3355d3b41bea1dc3e7149fed, type: 3}
   itemPrefab: {fileID: 524219431389811964, guid: 835a4b56fa999554abbed94bc0425d8c, type: 3}
   size: {x: 3, y: 0}

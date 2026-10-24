@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e795be7153bcc314c9c895874310fdb9, type: 3}
   m_Name: Arcade
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
-  width: 1
-  height: 1
-  itemName: 
-  cost: 0
-  itemIcon: {fileID: 0}
-  itemPrefab: {fileID: 0}
-  size: {x: 1, y: 1}
-  itemtype: 
+  width: 2
+  height: 0
+  itemName: Arcade
+  cost: 10000
+  itemIcon: {fileID: 3261844442408850257, guid: fe97b0fbe57a8db41b8357c242ac8e16, type: 3}
+  itemPrefab: {fileID: 2559836555010423141, guid: 1e9424353087e5a4c945b73c3e07f408, type: 3}
+  size: {x: 2, y: 0}
+  itemtype: Facility
   isWalkable: 0
