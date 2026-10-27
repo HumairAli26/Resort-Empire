@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e795be7153bcc314c9c895874310fdb9, type: 3}
+  m_Name: Clinic
+  m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
+  width: 3
+  height: 0
+  itemName: Clinic
+  cost: 12000
+  itemIcon: {fileID: -3976407745404439303, guid: 6700793275e6a664c92aca3401f2ae95, type: 3}
+  itemPrefab: {fileID: 2085490228480409284, guid: 0f349a5c8ce3ca54989ebef15094e238, type: 3}
+  size: {x: 3, y: 0}
+  itemtype: Facility
+  isWalkable: 0
