@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e795be7153bcc314c9c895874310fdb9, type: 3}
+  m_Name: Carved Stone Tile
+  m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
+  width: 1
+  height: 1
+  itemName: Carved Stone Tile
+  cost: 100
+  itemIcon: {fileID: 6186808607021063130, guid: 120e151e3bcce83448faef3bc7f5bcfd, type: 3}
+  itemPrefab: {fileID: 5903337550621525962, guid: c62c933d30d2c2347b3c3f568544ccf5, type: 3}
+  size: {x: 1, y: 1}
+  itemtype: WalkableTile
+  isWalkable: 1
