@@ -15,7 +15,7 @@ MonoBehaviour:
   width: 1
   height: 1
   itemName: Carved Stone Tile
-  cost: 100
+  cost: 150
   itemIcon: {fileID: 6186808607021063130, guid: 120e151e3bcce83448faef3bc7f5bcfd, type: 3}
   itemPrefab: {fileID: 5903337550621525962, guid: c62c933d30d2c2347b3c3f568544ccf5, type: 3}
   size: {x: 1, y: 1}
