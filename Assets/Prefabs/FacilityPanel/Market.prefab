@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.04632192, w: 0.9989266}
   m_LocalPosition: {x: -0.020817, y: -2.8889, z: 0}
-  m_LocalScale: {x: 4.741189, y: 5.5338025, z: 4.741189}
+  m_LocalScale: {x: 5.7062426, y: 5.607304, z: 4.741189}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -173,7 +173,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5128793, y: 0.36643317}
+    pivot: {x: 0.5128794, y: 0.3821033}
     oldSize: {x: 1.44, y: 0.97}
     newSize: {x: 1.44, y: 0.97}
     adaptiveTilingThreshold: 0.5

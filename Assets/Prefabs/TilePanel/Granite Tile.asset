@@ -17,7 +17,7 @@ MonoBehaviour:
   itemName: Granite Tile
   cost: 125
   itemIcon: {fileID: 2404037770047265881, guid: 2226eec0dcef5944ea15bfb23a6252a8, type: 3}
-  itemPrefab: {fileID: 4662894084415873638, guid: b06cdb59a47d23643ae43e79fa368630, type: 3}
+  itemPrefab: {fileID: 1959650590025623659, guid: b06cdb59a47d23643ae43e79fa368630, type: 3}
   size: {x: 1, y: 1}
-  itemtype: Decorative tile
-  isWalkable: 0
+  itemtype: Walabletile
+  isWalkable: 1

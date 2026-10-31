@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e795be7153bcc314c9c895874310fdb9, type: 3}
+  m_Name: Rose
+  m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
+  width: 1
+  height: 1
+  itemName: Rose
+  cost: 100
+  itemIcon: {fileID: 1828319275659788875, guid: 894521e70375a2047823184556f86a83, type: 3}
+  itemPrefab: {fileID: 1537351798872899997, guid: b0c555fe074f0244c99a17888b34eab0, type: 3}
+  size: {x: 1, y: 1}
+  itemtype: Plant
+  isWalkable: 0

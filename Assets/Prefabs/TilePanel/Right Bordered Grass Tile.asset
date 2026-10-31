@@ -17,7 +17,7 @@ MonoBehaviour:
   itemName: Right Bordered Grass Tile
   cost: 200
   itemIcon: {fileID: 4296899632114319842, guid: acdb2f595e58ae34988463b35204049b, type: 3}
-  itemPrefab: {fileID: 3568730181116745477, guid: 2cfec51d6c1ca0a459e01ac9b99b87cd, type: 3}
+  itemPrefab: {fileID: 3819071607902659785, guid: 6aab2eaad16df3e4dac838f99cd68381, type: 3}
   size: {x: 1, y: 1}
   itemtype: DecorativeTile
   isWalkable: 0
