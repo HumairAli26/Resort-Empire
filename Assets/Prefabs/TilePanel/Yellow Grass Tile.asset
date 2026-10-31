@@ -17,7 +17,7 @@ MonoBehaviour:
   itemName: Yellow Grass Tile
   cost: 100
   itemIcon: {fileID: 874261701935222498, guid: 84b8924c9394fe949ac6bf9c63d96cf9, type: 3}
-  itemPrefab: {fileID: 2153923181265316890, guid: 69f57f20df55f7145bfaba630aa128c2, type: 3}
+  itemPrefab: {fileID: 4027262837900738904, guid: d3ea91b9dffde7d4db95ce462ec1fd97, type: 3}
   size: {x: 1, y: 1}
-  itemtype: Decorative Tile
-  isWalkable: 0
+  itemtype: WalkableTile
+  isWalkable: 1

@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a66cedcf32b154786c46ce5becb0b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
-  itemName: Walkable Tile
+  itemName: Tar Tile
   size: {x: 1, y: 1}
   cost: 75
   incomeGeneration: 0

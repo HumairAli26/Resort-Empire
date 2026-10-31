@@ -17,7 +17,7 @@ MonoBehaviour:
   itemName: Front Bordered Grass Tile
   cost: 225
   itemIcon: {fileID: -5729938489366587548, guid: 59cef823273bcac479ace84c5c58ef60, type: 3}
-  itemPrefab: {fileID: 2782431083469908159, guid: 46d75d3ce5e7f484eb6037f1a775635f, type: 3}
+  itemPrefab: {fileID: 3868826347192969691, guid: 3dd002a972e9fd54a8068abc192eb251, type: 3}
   size: {x: 1, y: 1}
   itemtype: DecorativeTile
   isWalkable: 0

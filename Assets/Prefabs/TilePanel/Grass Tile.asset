@@ -17,7 +17,7 @@ MonoBehaviour:
   itemName: Grass Tile
   cost: 175
   itemIcon: {fileID: 764962799398289840, guid: 69c494d142ff4f34bad50e5e17950b96, type: 3}
-  itemPrefab: {fileID: 1096012324957626008, guid: 0d920448d234375448d839a1982b3667, type: 3}
+  itemPrefab: {fileID: 3778248075112273506, guid: 80a635d9840069f49a25518a0687e003, type: 3}
   size: {x: 1, y: 1}
   itemtype: DecorativeTile
   isWalkable: 0

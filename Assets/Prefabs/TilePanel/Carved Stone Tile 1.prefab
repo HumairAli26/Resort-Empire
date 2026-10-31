@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4748945126304112485
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 649026355990859762, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.658783
+      objectReference: {fileID: 0}
+    - target: {fileID: 649026355990859762, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.4970636
+      objectReference: {fileID: 0}
+    - target: {fileID: 649026355990859762, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 649026355990859762, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99908966
+      objectReference: {fileID: 0}
+    - target: {fileID: 649026355990859762, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 649026355990859762, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 649026355990859762, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.042660255
+      objectReference: {fileID: 0}
+    - target: {fileID: 649026355990859762, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 649026355990859762, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 649026355990859762, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -4.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143697669936898284, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_Name
+      value: Carved Stone Tile 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633494996330341187, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6186808607021063130, guid: 120e151e3bcce83448faef3bc7f5bcfd, type: 3}
+    - target: {fileID: 6604273079407464390, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
+      propertyPath: cost
+      value: 150
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91d725ee0b973da4baee0b2675757fe0, type: 3}
