@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
   width: 1
   height: 1
-  itemName: 
-  cost: 0
-  itemIcon: {fileID: 0}
-  itemPrefab: {fileID: 0}
+  itemName: Daecudeue Tree
+  cost: 750
+  itemIcon: {fileID: 8413582305966535831, guid: dee1be297a27cfc46a729b638d813f56, type: 3}
+  itemPrefab: {fileID: 7957637918031565797, guid: 265231b3e74c3f44fb4174be060f9d9e, type: 3}
   size: {x: 1, y: 1}
-  itemtype: 
+  itemtype: Plant
   isWalkable: 0

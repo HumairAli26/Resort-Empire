@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
   width: 1
   height: 1
-  itemName: 
-  cost: 0
-  itemIcon: {fileID: 0}
-  itemPrefab: {fileID: 0}
+  itemName: Palm Tree
+  cost: 1200
+  itemIcon: {fileID: 5398141787490624849, guid: c8609b14ffc83934790e54883d04da30, type: 3}
+  itemPrefab: {fileID: 2642526436875948596, guid: 2a8ec9b902aa6cf4aaad1ae4ef72da91, type: 3}
   size: {x: 1, y: 1}
-  itemtype: 
+  itemtype: Plant
   isWalkable: 0
