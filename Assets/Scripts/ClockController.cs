@@ -9,7 +9,7 @@ public class GameClockController : MonoBehaviour
     [Header("Time Settings")]
     [Range(0f, 24f)] public float startHour = 9f;
     [Tooltip("How many real seconds one in-game hour takes")]
-    public float realSecondsPerGameHour = 60f;
+    public float realSecondsPerGameHour = 5f;
     public bool running = true;
     public bool smoothMovement = true;
 

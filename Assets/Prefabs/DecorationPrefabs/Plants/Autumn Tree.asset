@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Autumn Tree
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
   width: 1
-  height: 1
+  height: 0
   itemName: Autumn Tree
   cost: 1500
   itemIcon: {fileID: 4853193615886477310, guid: 958411b0725969047be4e6b42e8a6d01, type: 3}
   itemPrefab: {fileID: 7565804855221673768, guid: 44dd5b7528b166241b80e62377435b21, type: 3}
-  size: {x: 1, y: 1}
+  size: {x: 1, y: 0}
   itemtype: Plant
   isWalkable: 0

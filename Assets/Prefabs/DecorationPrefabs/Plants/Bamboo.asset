@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Bamboo
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
   width: 1
-  height: 1
+  height: 0
   itemName: Bambo
   cost: 350
   itemIcon: {fileID: 4462928520164800611, guid: 4e4b5f6903b646a43aa428fce8011ed7, type: 3}
   itemPrefab: {fileID: 7581666057488848095, guid: 88effb778ecc2d240817a4ce5e36873a, type: 3}
-  size: {x: 1, y: 1}
+  size: {x: 1, y: 0}
   itemtype: Plant
   isWalkable: 0
