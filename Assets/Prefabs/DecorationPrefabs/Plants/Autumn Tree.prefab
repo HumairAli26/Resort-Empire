@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
   itemName: Autumn Tree
-  size: {x: 1, y: 1}
+  size: {x: 1, y: 0}
   cost: 1500
   incomeGeneration: 0
   maintenanceCost: 0
@@ -150,7 +150,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.49394652, y: 0.10458238}
     oldSize: {x: 0.35, y: 0.43}
     newSize: {x: 0.15, y: 0.24}
     adaptiveTilingThreshold: 0.5
@@ -159,9 +159,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.006765604, y: 0.013130881}
-      - {x: -0.23064154, y: -0.08350337}
-      - {x: -0.014075749, y: -0.22041391}
-      - {x: 0.22418648, y: -0.1278897}
-      - {x: 0.09221383, y: -0.045682974}
+    - - {x: -0.01719516, y: 0.05356466}
+      - {x: -0.08837442, y: -0.014616169}
+      - {x: -0.0020952486, y: -0.067664005}
+      - {x: 0.0774267, y: -0.03803681}
+      - {x: 0.077238426, y: 0.012721393}
   m_UseDelaunayMesh: 1

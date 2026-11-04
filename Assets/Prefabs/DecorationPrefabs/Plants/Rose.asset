@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Rose
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
   width: 1
-  height: 1
+  height: 0
   itemName: Rose
   cost: 100
   itemIcon: {fileID: 1828319275659788875, guid: 894521e70375a2047823184556f86a83, type: 3}
   itemPrefab: {fileID: 1537351798872899997, guid: b0c555fe074f0244c99a17888b34eab0, type: 3}
-  size: {x: 1, y: 1}
+  size: {x: 1, y: 0}
   itemtype: Plant
   isWalkable: 0

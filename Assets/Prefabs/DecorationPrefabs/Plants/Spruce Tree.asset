@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Spruce Tree
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
   width: 1
-  height: 1
+  height: 0
   itemName: Spruce Tree
   cost: 500
   itemIcon: {fileID: 1258698061394695572, guid: 43a0ab7afdf1fdc4c8a1a6043af16ebd, type: 3}
   itemPrefab: {fileID: 6632281997116697294, guid: ccd20ba03ad57d74b8cb9dfc8b9eea81, type: 3}
-  size: {x: 1, y: 1}
+  size: {x: 1, y: 0}
   itemtype: Plant
   isWalkable: 0

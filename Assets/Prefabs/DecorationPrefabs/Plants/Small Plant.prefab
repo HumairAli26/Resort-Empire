@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
   itemName: Small Plant
-  size: {x: 1, y: 1}
+  size: {x: 1, y: 0}
   cost: 150
   incomeGeneration: 0
   maintenanceCost: 0
@@ -150,7 +150,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5067997, y: 0.1809559}
     oldSize: {x: 0.25, y: 0.23}
     newSize: {x: 0.15, y: 0.24}
     adaptiveTilingThreshold: 0.5
@@ -159,9 +159,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.006765604, y: 0.013130881}
-      - {x: -0.23064154, y: -0.08350337}
-      - {x: -0.014075749, y: -0.22041391}
-      - {x: 0.22418648, y: -0.1278897}
-      - {x: 0.09221383, y: -0.045682974}
+    - - {x: 0.006765604, y: 0.038965825}
+      - {x: -0.05963871, y: -0.005998403}
+      - {x: -0.02760837, y: -0.061713353}
+      - {x: 0.04457198, y: -0.06022668}
+      - {x: 0.06637889, y: -0.005085159}
   m_UseDelaunayMesh: 1

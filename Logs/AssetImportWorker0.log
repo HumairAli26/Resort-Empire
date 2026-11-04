@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/respin/6000.3.6f1-732c1ec89f18' branch; Version is '6000.3.6f1 (bbb010bdb8a3) revision 12300304'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-humai" at "2026-11-02T13:30:37.1567023Z"
 OS: 'Windows 11  (10.0.26300) Professional' Language: 'en' Physical Memory: 64863 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-humai" at "2026-11-03T13:01:49.2515748Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-02T13:30:37Z
+Date: 2026-11-03T13:01:49Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/Game Dev/Resort Empire
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55730
+62065
 -licensingIpc
 LicenseClient-humai
 -job-worker-count
@@ -67,16 +67,16 @@ D:/Game Dev/Resort Empire
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [32504]  Target information:
+Player connection [22852]  Target information:
 
-Player connection [32504]  * "[IP] 192.168.83.1 [Port] 0 [Flags] 2 [Guid] 3280902168 [EditorId] 3280902168 [Version] 1048832 [Id] WindowsEditor(7,Humair_Ali) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22852]  * "[IP] 192.168.83.1 [Port] 0 [Flags] 2 [Guid] 3942812508 [EditorId] 3942812508 [Version] 1048832 [Id] WindowsEditor(7,Humair_Ali) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32504]  * "[IP] 192.168.19.1 [Port] 0 [Flags] 2 [Guid] 3280902168 [EditorId] 3280902168 [Version] 1048832 [Id] WindowsEditor(7,Humair_Ali) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22852]  * "[IP] 192.168.19.1 [Port] 0 [Flags] 2 [Guid] 3942812508 [EditorId] 3942812508 [Version] 1048832 [Id] WindowsEditor(7,Humair_Ali) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32504]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 3280902168 [EditorId] 3280902168 [Version] 1048832 [Id] WindowsEditor(7,Humair_Ali) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22852]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 3942812508 [EditorId] 3942812508 [Version] 1048832 [Id] WindowsEditor(7,Humair_Ali) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32504] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [32504] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22852] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22852] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -88,8 +88,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 13.18 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 3.66 ms.
+Refreshing native plugins compatible for Editor in 6.47 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 2.16 ms.
 Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Game Dev/Resort Empire/Assets
@@ -104,21 +104,21 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              bab0acaf921c418d90054fe32ede4bae
+  Session Id:              1360bb08621849a79af64243e52e3595
   Correlation Id:          4c9dbf72071eacd76e50e07384683ef0
-  External correlation Id: 5146486427074505065
+  External correlation Id: 1628251119214592968
   Machine Id:              Du9is2DkLR7bDe9JONnBjenM6dY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-humai" (connect: 0.00s, validation: 0.00s, handshake: 4.05s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-humai-notifications" at "2026-11-02T13:30:41.209445Z"
-[Licensing::Module] Licensing Background thread has ended after 4.05s
-[Licensing::Module] Licensing is initialized (took 2.60s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-humai" (connect: 0.00s, validation: 0.00s, handshake: 2.85s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-humai-notifications" at "2026-11-03T13:01:52.1031036Z"
+[Licensing::Module] Licensing Background thread has ended after 2.85s
+[Licensing::Module] Licensing is initialized (took 1.77s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 18968372494550-UnityPersXXXX
@@ -134,8 +134,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 2.630941 seconds.
-- Loaded All Assemblies, in  3.644 seconds
+Registered in 1.791563 seconds.
+- Loaded All Assemblies, in  2.440 seconds
 Native extension for LinuxStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -144,7 +144,7 @@ Native extension for AppleTV target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 595 ms
+Android Extension - Scanning For ADB Devices 355 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Failed to load: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
@@ -156,35 +156,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.810 seconds
-Domain Reload Profiling: 5440ms
-	BeginReloadAssembly (273ms)
+- Finished resetting the current domain, in  1.009 seconds
+Domain Reload Profiling: 3443ms
+	BeginReloadAssembly (221ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (85ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (2768ms)
-	LoadAllAssembliesAndSetupDomain (474ms)
-		LoadAssemblies (269ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (1871ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (214ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (461ms)
-			TypeCache.Refresh (457ms)
-				TypeCache.ScanAssembly (429ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (235ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1811ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1010ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1660ms)
+		SetupLoadedEditorAssemblies (965ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (960ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (220ms)
-			ProcessInitializeOnLoadAttributes (355ms)
-			ProcessInitializeOnLoadMethodAttributes (118ms)
+			InitializePlatformSupportModulesInManaged (554ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -199,11 +199,11 @@ Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.834 seconds
+- Loaded All Assemblies, in  1.647 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.37 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 2.87 ms, found 5 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for AppleTV target not found
 Native extension for iOS target not found
@@ -214,7 +214,7 @@ Failed to load: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Playbac
 Native extension for VisionOS target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 6.21 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.76 ms, found 5 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -224,658 +224,161 @@ Refreshing native plugins compatible for Editor in 6.21 ms, found 5 plugins.
 [Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.701 seconds
-Domain Reload Profiling: 7521ms
-	BeginReloadAssembly (419ms)
+- Finished resetting the current domain, in  2.720 seconds
+Domain Reload Profiling: 4358ms
+	BeginReloadAssembly (263ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (98ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (186ms)
-	LoadAllAssembliesAndSetupDomain (2089ms)
-		LoadAssemblies (1149ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (1207ms)
+		LoadAssemblies (658ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1190ms)
-			TypeCache.Refresh (927ms)
-				TypeCache.ScanAssembly (870ms)
-			BuildScriptInfoCaches (222ms)
-			ResolveRequiredComponents (28ms)
-	FinalizeReload (4702ms)
+		AnalyzeDomain (692ms)
+			TypeCache.Refresh (541ms)
+				TypeCache.ScanAssembly (509ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2720ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4322ms)
+		SetupLoadedEditorAssemblies (2507ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (73ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (529ms)
-			ProcessInitializeOnLoadAttributes (2724ms)
-			ProcessInitializeOnLoadMethodAttributes (954ms)
-			AfterProcessingInitializeOnLoad (29ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (307ms)
+			ProcessInitializeOnLoadAttributes (1575ms)
+			ProcessInitializeOnLoadMethodAttributes (555ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 7.68 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.24 ms.
+Refreshing native plugins compatible for Editor in 4.10 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11014 unused Assets / (21.0 MB). Loaded Objects now: 11888.
-Memory consumption went from 243.6 MB to 222.6 MB.
-Total: 60.598500 ms (FindLiveObjects: 2.868300 ms CreateObjectMapping: 3.570000 ms MarkObjects: 40.119400 ms  DeleteObjects: 14.037800 ms)
+Unloading 11014 unused Assets / (22.4 MB). Loaded Objects now: 11888.
+Memory consumption went from 243.6 MB to 221.2 MB.
+Total: 38.238400 ms (FindLiveObjects: 1.972600 ms CreateObjectMapping: 2.103600 ms MarkObjects: 22.611800 ms  DeleteObjects: 11.548200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35764.568619 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab
-  artifactKey: Guid(88effb778ecc2d240817a4ce5e36873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab using Guid(88effb778ecc2d240817a4ce5e36873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22271bcb675a29889a2e3b216d1808dc') in 0.8188784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 120445.921012 seconds.
+  path: Assets/Shop Items/740.png
+  artifactKey: Guid(958411b0725969047be4e6b42e8a6d01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shop Items/740.png using Guid(958411b0725969047be4e6b42e8a6d01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3453e1548327adb3da0e3bf6630b92b3') in 0.1609025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1427.816584 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab
-  artifactKey: Guid(88effb778ecc2d240817a4ce5e36873a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab using Guid(88effb778ecc2d240817a4ce5e36873a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4cb8bbb6e7d18592a30b1b6694977f0f') in 0.1330151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.397766 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.asset
-  artifactKey: Guid(a8cf62f167cf9b04083dc94ae680f424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.asset using Guid(a8cf62f167cf9b04083dc94ae680f424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b66972110480516836a3833ce4c37950') in 0.0014858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.951763 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.asset
-  artifactKey: Guid(a8cf62f167cf9b04083dc94ae680f424) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.asset using Guid(a8cf62f167cf9b04083dc94ae680f424) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f4e5769f045ba398035d7ff372d683e') in 0.0201048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.531881 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.prefab
-  artifactKey: Guid(ccd20ba03ad57d74b8cb9dfc8b9eea81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.prefab using Guid(ccd20ba03ad57d74b8cb9dfc8b9eea81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e1ee62314d677150ca169a2a8780211') in 0.0190495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.894145 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.prefab
-  artifactKey: Guid(ccd20ba03ad57d74b8cb9dfc8b9eea81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.prefab using Guid(ccd20ba03ad57d74b8cb9dfc8b9eea81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15f5e0111ed59176ce1fbfa04f6dcc9b') in 0.0197898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.006241 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.asset
-  artifactKey: Guid(e319e91f1c6e3734780375b6e4faff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.asset using Guid(e319e91f1c6e3734780375b6e4faff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6e8874fe1873779ab4923239be93ed1') in 0.0013264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.952803 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.asset
-  artifactKey: Guid(e319e91f1c6e3734780375b6e4faff1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.asset using Guid(e319e91f1c6e3734780375b6e4faff1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8277ac2e18ab76e8fdb812127f8fbfcc') in 0.0108647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 141.896195 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.prefab
-  artifactKey: Guid(265231b3e74c3f44fb4174be060f9d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.prefab using Guid(265231b3e74c3f44fb4174be060f9d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90aaf760f95e4b6d0c099787ffa3c6c9') in 0.0147364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.896710 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.prefab
-  artifactKey: Guid(265231b3e74c3f44fb4174be060f9d9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.prefab using Guid(265231b3e74c3f44fb4174be060f9d9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be2e838371b2e3fe8675546a2cc08d03') in 0.0150631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.051972 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.asset
-  artifactKey: Guid(0d2275fd3237fb34397645dc909780ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.asset using Guid(0d2275fd3237fb34397645dc909780ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '892509e549efa5e0f6a4a72bcc560b35') in 0.0013275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.949971 seconds.
+  Time since last request: 0.000028 seconds.
   path: Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.asset
   artifactKey: Guid(0d2275fd3237fb34397645dc909780ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.asset using Guid(0d2275fd3237fb34397645dc909780ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d8a1e9537a735fe7c87353f6ea76b36') in 0.0101823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 176.443849 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab
-  artifactKey: Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab using Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac578331c0bc0dfa7f30869e33f76dc2') in 0.0155434 seconds
+Start importing Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.asset using Guid(0d2275fd3237fb34397645dc909780ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63b60497d22ffd3d4dbaae7fc688748f') in 0.0453872 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.892019 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab
-  artifactKey: Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab using Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a2fdcc9a4baaf770bb3804ce83f2abf') in 0.0148261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/FacilityPanel/Pool.prefab
+  artifactKey: Guid(6738eda0a61713341a312734dd7c5935) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/FacilityPanel/Pool.prefab using Guid(6738eda0a61713341a312734dd7c5935) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61873e87752ae12e0c8c77c183ab07fb') in 0.0609204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.064689 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.asset
-  artifactKey: Guid(e1092e35e5e70d649876a44a67236ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.asset using Guid(e1092e35e5e70d649876a44a67236ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9aa48101f83b2bae9ac2879a30fd2b2') in 0.0014746 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.952038 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.asset
-  artifactKey: Guid(e1092e35e5e70d649876a44a67236ec9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.asset using Guid(e1092e35e5e70d649876a44a67236ec9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7ded338d6266ec7673cf2e19ce4c6de') in 0.0108258 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 534.783121 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab
-  artifactKey: Guid(44dd5b7528b166241b80e62377435b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab using Guid(44dd5b7528b166241b80e62377435b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c33272f34dec574f1a3df19b918f2a83') in 0.0180108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.894522 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab
-  artifactKey: Guid(44dd5b7528b166241b80e62377435b21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab using Guid(44dd5b7528b166241b80e62377435b21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4fcdb9eae7f528462febb5f650b0d3ed') in 0.0145061 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.875597 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.asset
-  artifactKey: Guid(8076558f42657bb4b9f821b1ff6a834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.asset using Guid(8076558f42657bb4b9f821b1ff6a834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1b8d2cf73c9efa9d7a840eb22a59339') in 0.001393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.951244 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.asset
-  artifactKey: Guid(8076558f42657bb4b9f821b1ff6a834b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.asset using Guid(8076558f42657bb4b9f821b1ff6a834b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22737a972b269bba48ca0f317694e2a7') in 0.011478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.352 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.05 ms, found 5 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Failed to load: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 3.23 ms, found 5 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.474 seconds
-Domain Reload Profiling: 3827ms
-	BeginReloadAssembly (371ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (36ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (134ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (857ms)
-		LoadAssemblies (575ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (406ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (373ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2475ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2210ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (311ms)
-			ProcessInitializeOnLoadAttributes (1220ms)
-			ProcessInitializeOnLoadMethodAttributes (616ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 3.43 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11012 unused Assets / (21.9 MB). Loaded Objects now: 11923.
-Memory consumption went from 244.0 MB to 222.1 MB.
-Total: 41.308700 ms (FindLiveObjects: 2.281300 ms CreateObjectMapping: 2.475500 ms MarkObjects: 27.227400 ms  DeleteObjects: 9.322500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1265.323114 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Potted Plant.prefab
-  artifactKey: Guid(94d1c1dc9f5cf21469db6b2b200fc779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Potted Plant.prefab using Guid(94d1c1dc9f5cf21469db6b2b200fc779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8518698ffde9c6a0e93ad966cc61f5dc') in 0.4373969 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.672214 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Small Plant.prefab
-  artifactKey: Guid(9fdd176e18964634298a4e1b0a4bb183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Small Plant.prefab using Guid(9fdd176e18964634298a4e1b0a4bb183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '142ea977c9f0bf1208595635543b6c88') in 0.0181266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.895963 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab
-  artifactKey: Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab using Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70ddc05414b4e3dc32ff52f2e16c4867') in 0.015952 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.139896 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.prefab
-  artifactKey: Guid(265231b3e74c3f44fb4174be060f9d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.prefab using Guid(265231b3e74c3f44fb4174be060f9d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac9df51d2ab3b8780d4ec5061ac72561') in 0.0158309 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.523532 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab
-  artifactKey: Guid(88effb778ecc2d240817a4ce5e36873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab using Guid(88effb778ecc2d240817a4ce5e36873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99b7d4235297df0a0ba39f93b5ce0d8e') in 0.0183197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.097593 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab
-  artifactKey: Guid(44dd5b7528b166241b80e62377435b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab using Guid(44dd5b7528b166241b80e62377435b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d6cb418d00b8efaa801bbb790be9ed1') in 0.0149094 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.324 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.84 ms, found 5 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Failed to load: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.86 ms, found 5 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.286 seconds
-Domain Reload Profiling: 3610ms
-	BeginReloadAssembly (326ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (35ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (117ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (877ms)
-		LoadAssemblies (554ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (428ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (398ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (2287ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2060ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (272ms)
-			ProcessInitializeOnLoadAttributes (1127ms)
-			ProcessInitializeOnLoadMethodAttributes (602ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 3.00 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11012 unused Assets / (21.3 MB). Loaded Objects now: 11946.
-Memory consumption went from 244.3 MB to 223.1 MB.
-Total: 38.321800 ms (FindLiveObjects: 1.689700 ms CreateObjectMapping: 2.465100 ms MarkObjects: 24.123300 ms  DeleteObjects: 10.041900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 233.195802 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab
-  artifactKey: Guid(44dd5b7528b166241b80e62377435b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab using Guid(44dd5b7528b166241b80e62377435b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b24fb8eab0dc85bb26770fb354f95273') in 0.4432709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.642209 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab
-  artifactKey: Guid(88effb778ecc2d240817a4ce5e36873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab using Guid(88effb778ecc2d240817a4ce5e36873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '687d44fea3a53b864a998d6041429f1a') in 0.0176027 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.100401 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.prefab
-  artifactKey: Guid(265231b3e74c3f44fb4174be060f9d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.prefab using Guid(265231b3e74c3f44fb4174be060f9d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25078f61888c1ae51d6d935b4c4f267b') in 0.01614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.079136 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab
-  artifactKey: Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab using Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55aaf75ceca53b7bb1e996c0acc764bc') in 0.0172238 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.541501 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.prefab
-  artifactKey: Guid(ccd20ba03ad57d74b8cb9dfc8b9eea81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.prefab using Guid(ccd20ba03ad57d74b8cb9dfc8b9eea81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c8db701b559b19de582be0de8e3983a') in 0.0173371 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.295 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.53 ms, found 5 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Failed to load: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 3.02 ms, found 5 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.241 seconds
-Domain Reload Profiling: 3537ms
-	BeginReloadAssembly (330ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (34ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (115ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (844ms)
-		LoadAssemblies (516ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (437ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (397ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (2242ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2007ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (269ms)
-			ProcessInitializeOnLoadAttributes (1107ms)
-			ProcessInitializeOnLoadMethodAttributes (573ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 3.43 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11012 unused Assets / (21.6 MB). Loaded Objects now: 11969.
-Memory consumption went from 244.4 MB to 222.8 MB.
-Total: 39.269100 ms (FindLiveObjects: 1.791400 ms CreateObjectMapping: 2.093200 ms MarkObjects: 25.037900 ms  DeleteObjects: 10.345200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.509 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.52 ms, found 5 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Failed to load: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
-Native extension for VisionOS target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 4.30 ms, found 5 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.017 seconds
-Domain Reload Profiling: 4521ms
-	BeginReloadAssembly (341ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (117ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (1024ms)
-		LoadAssemblies (657ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (490ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (457ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (3018ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2758ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (43ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (376ms)
-			ProcessInitializeOnLoadAttributes (1581ms)
-			ProcessInitializeOnLoadMethodAttributes (728ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Refreshing native plugins compatible for Editor in 4.25 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11012 unused Assets / (21.3 MB). Loaded Objects now: 11972.
-Memory consumption went from 244.3 MB to 223.0 MB.
-Total: 43.004500 ms (FindLiveObjects: 1.631400 ms CreateObjectMapping: 2.334700 ms MarkObjects: 28.036800 ms  DeleteObjects: 10.999000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 305.327664 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab
-  artifactKey: Guid(44dd5b7528b166241b80e62377435b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab using Guid(44dd5b7528b166241b80e62377435b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f84a6333ea4a9dc35611bd3d27b25a64') in 0.5046284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.001807 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab
-  artifactKey: Guid(88effb778ecc2d240817a4ce5e36873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab using Guid(88effb778ecc2d240817a4ce5e36873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c938de091a658b443add105f9c2f055') in 0.0181022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.725737 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab
-  artifactKey: Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab using Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea92849f8377ef06eeb23b6f35045c74') in 0.0171484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.878522 seconds.
-  path: Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab
-  artifactKey: Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab using Guid(2a8ec9b902aa6cf4aaad1ae4ef72da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b4c792aebfa9308f835399aad853d8b') in 0.0105308 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 265.171814 seconds.
-  path: Assets/Shop Items/407.png
-  artifactKey: Guid(c8609b14ffc83934790e54883d04da30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop Items/407.png using Guid(c8609b14ffc83934790e54883d04da30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
- -> (artifact id: 'e8eadd7ed654196d9667106b4b3ec512') in 0.0599726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
+  Time since last request: 0.000058 seconds.
   path: Assets/Shop Items/733.png
-  artifactKey: Guid(4e4b5f6903b646a43aa428fce8011ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop Items/733.png using Guid(4e4b5f6903b646a43aa428fce8011ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f10639a52204f1662e4540eeaacdeb83') in 0.0203364 seconds
+  artifactKey: Guid(4e4b5f6903b646a43aa428fce8011ed7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Shop Items/733.png using Guid(4e4b5f6903b646a43aa428fce8011ed7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '448330e76c5b034da29d37e1c7f82a71') in 0.0182906 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Shop Items/735.png
-  artifactKey: Guid(43a0ab7afdf1fdc4c8a1a6043af16ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop Items/735.png using Guid(43a0ab7afdf1fdc4c8a1a6043af16ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0687a86d3f8b463e5fa5ef97c92d7a8') in 0.0265504 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/FacilityPanel/Gym.prefab
+  artifactKey: Guid(f803a6a5771f1404fa0221cdc5d0ef57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/FacilityPanel/Gym.prefab using Guid(f803a6a5771f1404fa0221cdc5d0ef57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2d5c1b5df2dff06ba156c324520ddf3') in 0.0229016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.327083 seconds.
-  path: Assets/Shop Items/737.png
-  artifactKey: Guid(dee1be297a27cfc46a729b638d813f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shop Items/737.png using Guid(dee1be297a27cfc46a729b638d813f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcb7a638cf01a19284360bdced379fe4') in 0.0298558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.740 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.48 ms, found 5 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 4.07 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.263 seconds
+Domain Reload Profiling: 5000ms
+	BeginReloadAssembly (428ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (143ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (1127ms)
+		LoadAssemblies (763ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (530ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (489ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3264ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2958ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (474ms)
+			ProcessInitializeOnLoadAttributes (1508ms)
+			ProcessInitializeOnLoadMethodAttributes (889ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 5.52 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11012 unused Assets / (21.1 MB). Loaded Objects now: 11894.
+Memory consumption went from 242.5 MB to 221.4 MB.
+Total: 47.875600 ms (FindLiveObjects: 2.117000 ms CreateObjectMapping: 2.837000 ms MarkObjects: 31.197600 ms  DeleteObjects: 11.721500 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

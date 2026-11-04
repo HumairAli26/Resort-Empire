@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Small Plant
   m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
   width: 1
-  height: 1
+  height: 0
   itemName: Small Plant
   cost: 150
   itemIcon: {fileID: 192819116440458346, guid: a3afbb4262aaea94981466d7c006103f, type: 3}
   itemPrefab: {fileID: 8266585258495816451, guid: 9fdd176e18964634298a4e1b0a4bb183, type: 3}
-  size: {x: 1, y: 1}
+  size: {x: 1, y: 0}
   itemtype: Plant
   isWalkable: 0

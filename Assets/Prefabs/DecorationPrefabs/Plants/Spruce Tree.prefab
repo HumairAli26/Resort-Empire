@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaceableItem
   itemName: Spruce Tree
-  size: {x: 1, y: 1}
+  size: {x: 1, y: 0}
   cost: 500
   incomeGeneration: 0
   maintenanceCost: 0
@@ -150,7 +150,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.4947988, y: 0.10950961}
     oldSize: {x: 0.18, y: 0.38}
     newSize: {x: 0.15, y: 0.24}
     adaptiveTilingThreshold: 0.5
@@ -159,9 +159,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.006765604, y: 0.013130881}
-      - {x: -0.23064154, y: -0.08350337}
-      - {x: -0.014075749, y: -0.22041391}
-      - {x: 0.22418648, y: -0.1278897}
-      - {x: 0.09221383, y: -0.045682974}
+    - - {x: 0.011054794, y: 0.04887407}
+      - {x: -0.06622295, y: -0.006298147}
+      - {x: -0.03266208, y: -0.06028436}
+      - {x: 0.042611167, y: -0.062122226}
+      - {x: 0.07362731, y: -0.0027911216}
   m_UseDelaunayMesh: 1
