@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e795be7153bcc314c9c895874310fdb9, type: 3}
+  m_Name: Janitor
+  m_EditorClassIdentifier: Assembly-CSharp::ShopItemData
+  width: 1
+  height: 0
+  itemName: Janitor
+  cost: 1500
+  itemIcon: {fileID: 8056298910624288675, guid: 64a00ad9a79dcc3468cd24f6c511fbd6, type: 3}
+  itemPrefab: {fileID: 6013293016435321501, guid: 6f38924a9b40f6f4da6ccfdcad2763b7, type: 3}
+  size: {x: 1, y: 0}
+  itemtype: Janitor
+  isWalkable: 0
