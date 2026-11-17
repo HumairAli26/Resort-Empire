@@ -1,0 +1,282 @@
+﻿[
+  {
+    "id": "scene_Assets_Scenes_LoadingScreen_unity",
+    "type": "scene",
+    "path": "Assets/Scenes/LoadingScreen.unity",
+    "name": "LoadingScreen",
+    "direct_dependencies_count": 6
+  },
+  {
+    "id": "scene_Assets_Scenes_MainScreen_unity",
+    "type": "scene",
+    "path": "Assets/Scenes/MainScreen.unity",
+    "name": "MainScreen",
+    "direct_dependencies_count": 0
+  },
+  {
+    "id": "scene_Assets_Scenes_Playable_unity",
+    "type": "scene",
+    "path": "Assets/Scenes/Playable.unity",
+    "name": "Playable",
+    "direct_dependencies_count": 147
+  },
+  {
+    "id": "scene_Assets_Settings_Scenes_URP2DSceneTemplate_unity",
+    "type": "scene",
+    "path": "Assets/Settings/Scenes/URP2DSceneTemplate.unity",
+    "name": "URP2DSceneTemplate",
+    "direct_dependencies_count": 2
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_01___Single_Line_TextMesh_Pro_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity",
+    "name": "01-  Single Line TextMesh Pro",
+    "direct_dependencies_count": 2
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_02___Multi_line_TextMesh_Pro_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity",
+    "name": "02 - Multi-line TextMesh Pro",
+    "direct_dependencies_count": 2
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_03___Line_Justification_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity",
+    "name": "03 - Line Justification",
+    "direct_dependencies_count": 2
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_04___Word_Wrapping_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity",
+    "name": "04 - Word Wrapping",
+    "direct_dependencies_count": 2
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_05___Style_Tags_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity",
+    "name": "05 - Style Tags",
+    "direct_dependencies_count": 4
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_06___Extra_Rich_Text_Examples_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity",
+    "name": "06 - Extra Rich Text Examples",
+    "direct_dependencies_count": 3
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_07___Superscript_&_Subscript_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/07 - Superscript & Subscript Example.unity",
+    "name": "07 - Superscript & Subscript Example",
+    "direct_dependencies_count": 3
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_08___Improved_Text_Alignment_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity",
+    "name": "08 - Improved Text Alignment",
+    "direct_dependencies_count": 4
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_09___Margin_Tag_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity",
+    "name": "09 - Margin Tag Example",
+    "direct_dependencies_count": 4
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_10___Bullets_&_Numbered_List_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity",
+    "name": "10 - Bullets & Numbered List Example",
+    "direct_dependencies_count": 4
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_11___The_Style_Tag_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity",
+    "name": "11 - The Style Tag",
+    "direct_dependencies_count": 3
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12___Link_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity",
+    "name": "12 - Link Example",
+    "direct_dependencies_count": 9
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity",
+    "name": "12a - Text Interactions",
+    "direct_dependencies_count": 10
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_13___Soft_Hyphenation_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity",
+    "name": "13 - Soft Hyphenation",
+    "direct_dependencies_count": 2
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_14___Multi_Font_&_Sprites_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity",
+    "name": "14 - Multi Font & Sprites",
+    "direct_dependencies_count": 5
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_15___Inline_Graphics_&_Sprites_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity",
+    "name": "15 - Inline Graphics & Sprites",
+    "direct_dependencies_count": 6
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_16___Linked_text_overflow_mode_example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity",
+    "name": "16 - Linked text overflow mode example",
+    "direct_dependencies_count": 5
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_17___Old_Computer_Terminal_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity",
+    "name": "17 - Old Computer Terminal",
+    "direct_dependencies_count": 3
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_18___ScrollRect_&_Masking_&_Layout_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity",
+    "name": "18 - ScrollRect & Masking & Layout",
+    "direct_dependencies_count": 7
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_19___Masking_Texture_&_Soft_Mask_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity",
+    "name": "19 - Masking Texture & Soft Mask",
+    "direct_dependencies_count": 3
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_20___Input_Field_with_Scrollbar_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity",
+    "name": "20 - Input Field with Scrollbar",
+    "direct_dependencies_count": 4
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_21___Script_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity",
+    "name": "21 - Script Example",
+    "direct_dependencies_count": 1
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_22___Basic_Scripting_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/22 - Basic Scripting Example.unity",
+    "name": "22 - Basic Scripting Example",
+    "direct_dependencies_count": 1
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_23___Animating_Vertex_Attributes_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity",
+    "name": "23 - Animating Vertex Attributes",
+    "direct_dependencies_count": 5
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity",
+    "name": "24 - Surface Shader Example URP",
+    "direct_dependencies_count": 12
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity",
+    "name": "24 - Surface Shader Example",
+    "direct_dependencies_count": 10
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_25___Sunny_Days_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity",
+    "name": "25 - Sunny Days Example",
+    "direct_dependencies_count": 6
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_26___Dropdown_Placeholder_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity",
+    "name": "26 - Dropdown Placeholder Example",
+    "direct_dependencies_count": 4
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_27___Double_Pass_Shader_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/27 - Double Pass Shader Example.unity",
+    "name": "27 - Double Pass Shader Example",
+    "direct_dependencies_count": 4
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/28 - HDRP Shader Example.unity",
+    "name": "28 - HDRP Shader Example",
+    "direct_dependencies_count": 9
+  },
+  {
+    "id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_Benchmark_(Floating_Text)_unity",
+    "type": "scene",
+    "path": "Assets/TextMesh Pro/Examples & Extras/Scenes/Benchmark (Floating Text).unity",
+    "name": "Benchmark (Floating Text)",
+    "direct_dependencies_count": 4
+  },
+  {
+    "id": "scene_Assets_Thaleah_PixelFont_Thaleah_Demo_unity",
+    "type": "scene",
+    "path": "Assets/Thaleah_PixelFont/Thaleah_Demo.unity",
+    "name": "Thaleah_Demo",
+    "direct_dependencies_count": 2
+  },
+  {
+    "id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "type": "scene",
+    "path": "Packages/com.nobi.roundedcorners/Examples/example.unity",
+    "name": "example",
+    "direct_dependencies_count": 13
+  },
+  {
+    "id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Basic_unity",
+    "type": "scene",
+    "path": "Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Basic.unity",
+    "name": "Basic",
+    "direct_dependencies_count": 2
+  },
+  {
+    "id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "type": "scene",
+    "path": "Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Indoors.unity",
+    "name": "Indoors",
+    "direct_dependencies_count": 19
+  },
+  {
+    "id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "type": "scene",
+    "path": "Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard.unity",
+    "name": "Standard",
+    "direct_dependencies_count": 12
+  }
+]

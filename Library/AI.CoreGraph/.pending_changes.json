@@ -1,0 +1,745 @@
+{
+  "version": "1.0",
+  "lastUpdate": "2026-11-16T16:00:10.821Z",
+  "totalChanges": 123,
+  "changes": [
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "oldPath": null,
+      "timestamp": "2026-11-16T16:00:10.817Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset",
+      "oldPath": null,
+      "timestamp": "2026-11-16T16:00:10.817Z"
+    },
+    {
+      "type": "domain_reload",
+      "path": "",
+      "oldPath": null,
+      "timestamp": "2026-11-16T15:31:58.377Z"
+    },
+    {
+      "type": "deleted",
+      "path": "Assets/Scenes/LoadingScreen.unity",
+      "oldPath": null,
+      "timestamp": "2026-11-16T12:52:35.262Z"
+    },
+    {
+      "type": "deleted",
+      "path": "Assets/Scenes/MainScreen.unity",
+      "oldPath": null,
+      "timestamp": "2026-11-16T12:52:41.165Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/ShopTabController.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.765Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/GuestBrain.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/DecorationPrefabs/Plants/Small Plant.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/Taco Stand.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/FacilityRegistry.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/ClockController.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/BalanceDisplay.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/Scheduler.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/ItemPlacer.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Carved Stone Tile 1.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/Facility.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/JanitorPanel/Janitor.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/DecorationPrefabs/Plants/Palm Tree.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/Resort_Reception.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/DecorationPrefabs/Plants/Autumn Tree.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/DayDisplay.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Yellow Grass Tile.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Right Bordered Grass Tile 1.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/ShopUIManager.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/Market.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/Reception.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/EconomyManager.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/ChineseRestaurant.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Yellow Marbel Tile.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/CarMovement.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Grass Tile.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Right Bordered Grass Tile.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/DecorationPrefabs/Plants/Bamboo.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/CustomNameScript.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/Bar.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Stone Tile.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/Gym.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/GridManager.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/ItemCategory/RoomCategory.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/GameStatsManager.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Granite Tile.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/Clinic.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/DecorationPrefabs/Plants/Daecudeue Tree.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/ShopItemData.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/PlaceableItem1.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/Customers/Mr. Smith/Mr. Smith.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/Cross-Platform Grid Snapping Script.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/Suana.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Carved Stone Tile.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Granite Tile 1.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/CashDisplay.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/Customers/Caroline/Caroline.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/HousePanel/Lodge.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/icecreamParlor 1.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/MobileCameraPan.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Grass Tile 1.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/Building.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/Massage.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/CustomerMovement.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Front Bordered Grass Tile 1.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/DecorationPrefabs/Plants/Spruce Tree.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/HousePanel/Cottage.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Front Bordered Grass Tile.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/ExpStats.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/Arcade.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/ShopItemButton.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/PlaceableItem.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/Pool.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/DecorationPrefabs/Plants/Rose.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/HotDog Stand.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/FacilityPanel/icecreamParlor.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/CustomerSpawner.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/DecorationPrefabs/Plants/Potted Plant.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/Cottage.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/TilePanel/Tar Tile.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/SpriteChanger.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/Controller.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T13:02:27.767Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/JanitorCleaningArea.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T14:29:08.238Z"
+    },
+    {
+      "type": "deleted",
+      "path": "Assets/Scripts/Trash.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T15:23:34.242Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/JanitorAI.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T15:23:34.242Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/JanitorPanel/Trash",
+      "oldPath": null,
+      "timestamp": "2026-11-16T14:44:11.801Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/JanitorPanel/Trash/172.png",
+      "oldPath": null,
+      "timestamp": "2026-11-16T14:45:27.806Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/JanitorPanel/Trash/176.png",
+      "oldPath": null,
+      "timestamp": "2026-11-16T14:45:27.806Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/JanitorPanel/Trash/174.png",
+      "oldPath": null,
+      "timestamp": "2026-11-16T14:45:27.806Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/JanitorPanel/Trash/170.png",
+      "oldPath": null,
+      "timestamp": "2026-11-16T14:45:27.806Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/JanitorPanel/Trash.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T15:29:00.799Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scripts/DirtSpot.cs",
+      "oldPath": null,
+      "timestamp": "2026-11-16T15:29:00.799Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Prefabs/JanitorPanel/Janitor 1.prefab",
+      "oldPath": null,
+      "timestamp": "2026-11-16T15:31:07.547Z"
+    },
+    {
+      "type": "imported",
+      "path": "Assets/Scenes/Playable.unity",
+      "oldPath": null,
+      "timestamp": "2026-11-16T16:00:06.193Z"
+    }
+  ]
+}

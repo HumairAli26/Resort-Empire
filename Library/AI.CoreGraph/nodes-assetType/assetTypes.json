@@ -1,0 +1,366 @@
+﻿[
+  {
+    "id": "assetType_MonoScript",
+    "type": "assetType",
+    "name": "MonoScript",
+    "description": "C# script files that contain game logic, components, and behaviors",
+    "asset_count": 10892
+  },
+  {
+    "id": "assetType_AnimatorController",
+    "type": "assetType",
+    "name": "AnimatorController",
+    "description": "Assets of type AnimatorController",
+    "asset_count": 3
+  },
+  {
+    "id": "assetType_Material",
+    "type": "assetType",
+    "name": "Material",
+    "description": "Material assets that define surface properties for rendering",
+    "asset_count": 52
+  },
+  {
+    "id": "assetType_Texture2D",
+    "type": "assetType",
+    "name": "Texture2D",
+    "description": "2D texture image files used for materials, sprites, and UI",
+    "asset_count": 35217
+  },
+  {
+    "id": "assetType_ScriptableObject",
+    "type": "assetType",
+    "name": "ScriptableObject",
+    "description": "ScriptableObject asset files for data containers",
+    "asset_count": 31
+  },
+  {
+    "id": "assetType_InputActionAsset",
+    "type": "assetType",
+    "name": "InputActionAsset",
+    "description": "Assets of type InputActionAsset",
+    "asset_count": 5
+  },
+  {
+    "id": "assetType_Shader",
+    "type": "assetType",
+    "name": "Shader",
+    "description": "Shader code files that define rendering behavior",
+    "asset_count": 245
+  },
+  {
+    "id": "assetType_GameObject",
+    "type": "assetType",
+    "name": "GameObject",
+    "description": "GameObject assets (prefabs or scene objects)",
+    "asset_count": 105
+  },
+  {
+    "id": "assetType_TMP_FontAsset",
+    "type": "assetType",
+    "name": "TMP_FontAsset",
+    "description": "Assets of type TMP_FontAsset",
+    "asset_count": 8
+  },
+  {
+    "id": "assetType_TMP_SpriteAsset",
+    "type": "assetType",
+    "name": "TMP_SpriteAsset",
+    "description": "Assets of type TMP_SpriteAsset",
+    "asset_count": 3
+  },
+  {
+    "id": "assetType_VolumeProfile",
+    "type": "assetType",
+    "name": "VolumeProfile",
+    "description": "Assets of type VolumeProfile",
+    "asset_count": 5
+  },
+  {
+    "id": "assetType_Font",
+    "type": "assetType",
+    "name": "Font",
+    "description": "Font assets for text rendering",
+    "asset_count": 62
+  },
+  {
+    "id": "assetType_LightingDataAsset",
+    "type": "assetType",
+    "name": "LightingDataAsset",
+    "description": "Assets of type LightingDataAsset",
+    "asset_count": 2
+  },
+  {
+    "id": "assetType_DefaultAsset",
+    "type": "assetType",
+    "name": "DefaultAsset",
+    "description": "Assets of type DefaultAsset",
+    "asset_count": 2933
+  },
+  {
+    "id": "assetType_AnimationClip",
+    "type": "assetType",
+    "name": "AnimationClip",
+    "description": "Animation data files for character and object animations",
+    "asset_count": 9
+  },
+  {
+    "id": "assetType_Tile",
+    "type": "assetType",
+    "name": "Tile",
+    "description": "Assets of type Tile",
+    "asset_count": 17
+  },
+  {
+    "id": "assetType_SceneAsset",
+    "type": "assetType",
+    "name": "SceneAsset",
+    "description": "Assets of type SceneAsset",
+    "asset_count": 40
+  },
+  {
+    "id": "assetType_SceneTemplateAsset",
+    "type": "assetType",
+    "name": "SceneTemplateAsset",
+    "description": "Assets of type SceneTemplateAsset",
+    "asset_count": 4
+  },
+  {
+    "id": "assetType_ComputeShader",
+    "type": "assetType",
+    "name": "ComputeShader",
+    "description": "Compute shader assets for GPU computation",
+    "asset_count": 95
+  },
+  {
+    "id": "assetType_PostProcessData",
+    "type": "assetType",
+    "name": "PostProcessData",
+    "description": "Assets of type PostProcessData",
+    "asset_count": 3
+  },
+  {
+    "id": "assetType_Renderer2DData",
+    "type": "assetType",
+    "name": "Renderer2DData",
+    "description": "Assets of type Renderer2DData",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_UniversalRenderPipelineAsset",
+    "type": "assetType",
+    "name": "UniversalRenderPipelineAsset",
+    "description": "Assets of type UniversalRenderPipelineAsset",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_TextAsset",
+    "type": "assetType",
+    "name": "TextAsset",
+    "description": "Text and arbitrary data files",
+    "asset_count": 307
+  },
+  {
+    "id": "assetType_TMP_ColorGradient",
+    "type": "assetType",
+    "name": "TMP_ColorGradient",
+    "description": "Assets of type TMP_ColorGradient",
+    "asset_count": 4
+  },
+  {
+    "id": "assetType_TMP_StyleSheet",
+    "type": "assetType",
+    "name": "TMP_StyleSheet",
+    "description": "Assets of type TMP_StyleSheet",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_TMP_Settings",
+    "type": "assetType",
+    "name": "TMP_Settings",
+    "description": "Assets of type TMP_Settings",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_ShaderInclude",
+    "type": "assetType",
+    "name": "ShaderInclude",
+    "description": "Assets of type ShaderInclude",
+    "asset_count": 427
+  },
+  {
+    "id": "assetType_UniversalRenderPipelineGlobalSettings",
+    "type": "assetType",
+    "name": "UniversalRenderPipelineGlobalSettings",
+    "description": "Assets of type UniversalRenderPipelineGlobalSettings",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_StyleSheet",
+    "type": "assetType",
+    "name": "StyleSheet",
+    "description": "UI StyleSheet files (USS) for UIToolkit styling",
+    "asset_count": 483
+  },
+  {
+    "id": "assetType_VisualTreeAsset",
+    "type": "assetType",
+    "name": "VisualTreeAsset",
+    "description": "UI XML files (UXML) for UIToolkit UI definitions",
+    "asset_count": 460
+  },
+  {
+    "id": "assetType_AssemblyDefinitionAsset",
+    "type": "assetType",
+    "name": "AssemblyDefinitionAsset",
+    "description": "Assets of type AssemblyDefinitionAsset",
+    "asset_count": 186
+  },
+  {
+    "id": "assetType_PackageManifest",
+    "type": "assetType",
+    "name": "PackageManifest",
+    "description": "Assets of type PackageManifest",
+    "asset_count": 39
+  },
+  {
+    "id": "assetType_AssemblyDefinitionReferenceAsset",
+    "type": "assetType",
+    "name": "AssemblyDefinitionReferenceAsset",
+    "description": "Assets of type AssemblyDefinitionReferenceAsset",
+    "asset_count": 4
+  },
+  {
+    "id": "assetType_SpriteAtlasScriptablePacker",
+    "type": "assetType",
+    "name": "SpriteAtlasScriptablePacker",
+    "description": "Assets of type SpriteAtlasScriptablePacker",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_SpriteAtlasGeometryPacker",
+    "type": "assetType",
+    "name": "SpriteAtlasGeometryPacker",
+    "description": "Assets of type SpriteAtlasGeometryPacker",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_Pipeline",
+    "type": "assetType",
+    "name": "Pipeline",
+    "description": "Assets of type Pipeline",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_SpriteShape",
+    "type": "assetType",
+    "name": "SpriteShape",
+    "description": "Assets of type SpriteShape",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_ShaderVariantCollection",
+    "type": "assetType",
+    "name": "ShaderVariantCollection",
+    "description": "Assets of type ShaderVariantCollection",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_ThemeStyleSheet",
+    "type": "assetType",
+    "name": "ThemeStyleSheet",
+    "description": "Theme files (TSS) for UIToolkit theming",
+    "asset_count": 12
+  },
+  {
+    "id": "assetType_NavGraphViewAsset",
+    "type": "assetType",
+    "name": "NavGraphViewAsset",
+    "description": "Assets of type NavGraphViewAsset",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_VectorImage",
+    "type": "assetType",
+    "name": "VectorImage",
+    "description": "Assets of type VectorImage",
+    "asset_count": 7
+  },
+  {
+    "id": "assetType_AudioClip",
+    "type": "assetType",
+    "name": "AudioClip",
+    "description": "Audio files (WAV, MP3, OGG) used for sound effects and music",
+    "asset_count": 22
+  },
+  {
+    "id": "assetType_NoiseSettings",
+    "type": "assetType",
+    "name": "NoiseSettings",
+    "description": "Assets of type NoiseSettings",
+    "asset_count": 9
+  },
+  {
+    "id": "assetType_PanelSettings",
+    "type": "assetType",
+    "name": "PanelSettings",
+    "description": "UIToolkit PanelSettings configuration assets",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_LensFlareDataSRP",
+    "type": "assetType",
+    "name": "LensFlareDataSRP",
+    "description": "Assets of type LensFlareDataSRP",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_AppUISettings",
+    "type": "assetType",
+    "name": "AppUISettings",
+    "description": "Assets of type AppUISettings",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_ShaderGraphHeatmapValues",
+    "type": "assetType",
+    "name": "ShaderGraphHeatmapValues",
+    "description": "Assets of type ShaderGraphHeatmapValues",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_SubGraphAsset",
+    "type": "assetType",
+    "name": "SubGraphAsset",
+    "description": "Assets of type SubGraphAsset",
+    "asset_count": 42
+  },
+  {
+    "id": "assetType_LocalizationAsset",
+    "type": "assetType",
+    "name": "LocalizationAsset",
+    "description": "Assets of type LocalizationAsset",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_ProbeVolumeBakingSet",
+    "type": "assetType",
+    "name": "ProbeVolumeBakingSet",
+    "description": "Assets of type ProbeVolumeBakingSet",
+    "asset_count": 1
+  },
+  {
+    "id": "assetType_Cubemap",
+    "type": "assetType",
+    "name": "Cubemap",
+    "description": "Assets of type Cubemap",
+    "asset_count": 2
+  },
+  {
+    "id": "assetType_UniversalRendererData",
+    "type": "assetType",
+    "name": "UniversalRendererData",
+    "description": "Assets of type UniversalRendererData",
+    "asset_count": 1
+  }
+]

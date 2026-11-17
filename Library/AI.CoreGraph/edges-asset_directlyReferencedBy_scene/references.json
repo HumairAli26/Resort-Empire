@@ -1,0 +1,2424 @@
+﻿[
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalCameraData_cs",
+    "dst_id": "scene_Assets_Scenes_LoadingScreen_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalCameraData_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalCameraData_cs",
+    "dst_id": "scene_Assets_Settings_Scenes_URP2DSceneTemplate_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalCameraData_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalCameraData_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Basic_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalCameraData_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalCameraData_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_2D_Light2D_cs",
+    "dst_id": "scene_Assets_Scenes_LoadingScreen_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_2D_Light2D_cs",
+    "dst_id": "scene_Assets_Settings_Scenes_URP2DSceneTemplate_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Animations_Title_controller",
+    "dst_id": "scene_Assets_Scenes_LoadingScreen_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_Materials_Sprite_Lit_Default_mat",
+    "dst_id": "scene_Assets_Scenes_LoadingScreen_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_Materials_Sprite_Lit_Default_mat",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_40_1_png",
+    "dst_id": "scene_Assets_Scenes_LoadingScreen_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_39_45_png",
+    "dst_id": "scene_Assets_Scenes_LoadingScreen_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_24_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_ShopTabController_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Slider_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_JanitorPanel_Janitor_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Input_Controls_inputactions",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_ClockController_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Layout_HorizontalLayoutGroup_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_Scheduler_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_TilePanel_Tar_Tile_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_450_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_05___Style_Tags_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_06___Extra_Rich_Text_Examples_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_08___Improved_Text_Alignment_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_09___Margin_Tag_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_10___Bullets_&_Numbered_List_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_11___The_Style_Tag_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12___Link_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_13___Soft_Hyphenation_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_15___Inline_Graphics_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_16___Linked_text_overflow_mode_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_17___Old_Computer_Terminal_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_18___ScrollRect_&_Masking_&_Layout_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_19___Masking_Texture_&_Soft_Mask_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_20___Input_Field_with_Scrollbar_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_23___Animating_Vertex_Attributes_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_25___Sunny_Days_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshProUGUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_26___Dropdown_Placeholder_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_nobi_roundedcorners_UiRoundedCorners_RoundedCorners_shader",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_nobi_roundedcorners_UiRoundedCorners_RoundedCorners_shader",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_JanitorPanel_DefineSprite_2053_7_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_18_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_TilePanel_Right_Bordered_Grass_Tile_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_cinemachine_Runtime_Components_CinemachinePositionComposer_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_HousePanel_Cottage_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_Cottage_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_Vehicles_WhiteVan_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_PalmTree_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_SettingsButton_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_LegendsButton_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Oswald_Bold_SDF_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_Resort_Reception_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_cinemachine_Runtime_Behaviours_CinemachineBrain_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Image_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Image_cs",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_17_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_DayDisplay_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_inputsystem_InputSystem_Plugins_PlayerInput_PlayerInput_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_Icecream_Parlour_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_3558_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_Lodge_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_452_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_36_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_23_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_3555_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_Plants_Rose_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_26_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Layout_ContentSizeFitter_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_Plants_Potted_Plant_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_21_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_466_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_quarterpiece_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_35_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_1_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_EconomyManager_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_45_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Layout_CanvasScaler_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Layout_CanvasScaler_cs",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_Arcade_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_13_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_TilePanel_Yellow_Grass_Tile_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_CarMovement_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_455_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TMP_InputField_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TMP_InputField_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_20___Input_Field_with_Scrollbar_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_Pool_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_Vehicles_OrangeBus_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_407_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Button_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Button_cs",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_CustomNameScript_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_HousePanel_Lodge_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_28_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_GridManager_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_RectMask2D_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_GameStatsManager_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_Plants_Bamboo_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_popularity_panel_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_Market_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_GroundTowel_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_01___Single_Line_TextMesh_Pro_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_02___Multi_line_TextMesh_Pro_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_03___Line_Justification_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_04___Word_Wrapping_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_05___Style_Tags_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_06___Extra_Rich_Text_Examples_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_07___Superscript_&_Subscript_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_08___Improved_Text_Alignment_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_09___Margin_Tag_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_10___Bullets_&_Numbered_List_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_11___The_Style_Tag_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12___Link_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_13___Soft_Hyphenation_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_14___Multi_Font_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_16___Linked_text_overflow_mode_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_18___ScrollRect_&_Masking_&_Layout_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_19___Masking_Texture_&_Soft_Mask_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_20___Input_Field_with_Scrollbar_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_25___Sunny_Days_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_26___Dropdown_Placeholder_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_10_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_3420_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_Cross_Platform_Grid_Snapping_Script_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_27_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_Customers_Mr__Smith_Mr__Smith_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_Plants_Autumn_Tree_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_ok_button_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Layout_GridLayoutGroup_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_Plants_Spruce_Tree_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_Massage_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_30_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_LevelStar_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_TilePanel_Granite_Tile_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_458_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_Vehicles_BlueBus_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_5_1_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_currency_panel_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_31_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_12_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_CashDisplay_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_Customers_Caroline_Caroline_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_Bar_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_cinemachine_Runtime_Behaviours_CinemachineConfiner2D_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_33_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_Materials_BusOrange_mat",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_Clinic_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_8_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_Gym_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_38_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_hourpiece_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_TilePanel_Carved_Stone_Tile_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Fallback_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_TilePanel_Stone_Tile_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_7_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_TilePanel_Front_Bordered_Grass_Tile_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_Plants_Palm_Tree_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_ChineseRestaurant_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_448_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_HotDog_Stand_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_4_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_684_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_nobi_roundedcorners_UiRoundedCorners_ImageWithRoundedCorners_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_nobi_roundedcorners_UiRoundedCorners_ImageWithRoundedCorners_cs",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_25_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_hourhandlewhite_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_Plants_Small_Plant_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Layout_LayoutElement_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_ShopItemButton_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_37_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_11_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_466_1_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_TilePanel_Grass_Tile_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_Taco_Stand_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_5_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_SunLounger_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_Achivements_Buttons_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_16_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_ExpStats_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_cancel_button_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_ShopItemButton_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_sprites_DefineSprite_3173_22_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_GraphicRaycaster_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_GraphicRaycaster_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_GraphicRaycaster_cs",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_Tilemap_Assets_Resort_Ground_prefab",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_DecorationPrefabs_Plants_Daecudeue_Tree_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_EventSystem_EventSystem_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_EventSystem_EventSystem_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_EventSystem_EventSystem_cs",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_3490_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_inputsystem_InputSystem_Plugins_PlayerInput_DefaultInputActions_inputactions",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_minutehandlewhite_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_34_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_cinemachine_Runtime_Behaviours_CinemachineCamera_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Layout_VerticalLayoutGroup_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_CustomerSpawner_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_inputsystem_InputSystem_Plugins_UI_InputSystemUIInputModule_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Shop_Items_284_png",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_SpriteChanger_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Prefabs_FacilityPanel_Suana_asset",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Scripts_Controller_cs",
+    "dst_id": "scene_Assets_Scenes_Playable_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_01___Single_Line_TextMesh_Pro_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_02___Multi_line_TextMesh_Pro_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_03___Line_Justification_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_04___Word_Wrapping_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_05___Style_Tags_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_07___Superscript_&_Subscript_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_09___Margin_Tag_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_14___Multi_Font_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_27___Double_Pass_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TextMeshPro_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_05___Style_Tags_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_06___Extra_Rich_Text_Examples_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_07___Superscript_&_Subscript_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_08___Improved_Text_Alignment_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_09___Margin_Tag_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_11___The_Style_Tag_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12___Link_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_14___Multi_Font_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Fonts_&_Materials_LiberationSans_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_16___Linked_text_overflow_mode_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_TextInfoDebugTool_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_08___Improved_Text_Alignment_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_TextInfoDebugTool_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12___Link_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_TextInfoDebugTool_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TMP_SubMeshUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_10___Bullets_&_Numbered_List_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TMP_SubMeshUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12___Link_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TMP_SubMeshUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_15___Inline_Graphics_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TMP_SubMeshUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_18___ScrollRect_&_Masking_&_Layout_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TMP_SubMeshUI_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_25___Sunny_Days_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Sprite_Assets_DropCap_Numbers_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_10___Bullets_&_Numbered_List_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_TextSelector_B_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12___Link_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Bangers_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12___Link_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Bangers_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_27___Double_Pass_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Prefabs_Text_Popup_prefab",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12___Link_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Bangers_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12___Link_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Bangers_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_18___ScrollRect_&_Masking_&_Layout_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Bangers_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Bangers_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Bangers_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_27___Double_Pass_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_EventSystem_InputModules_StandaloneInputModule_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_EventSystem_InputModules_StandaloneInputModule_cs",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_TextEventCheck_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_TextEventHandler_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_12a___Text_Interactions_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Sprite_Assets_EmojiOne_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_14___Multi_Font_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Resources_Sprite_Assets_EmojiOne_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_18___ScrollRect_&_Masking_&_Layout_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Anton_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_14___Multi_Font_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Anton_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_15___Inline_Graphics_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Anton_SDF___Drop_Shadow_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_23___Animating_Vertex_Attributes_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Sprite_Assets_Default_Sprite_Asset_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_15___Inline_Graphics_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TeleType_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_15___Inline_Graphics_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Anton_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_15___Inline_Graphics_&_Sprites_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Anton_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_18___ScrollRect_&_Masking_&_Layout_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Anton_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_23___Animating_Vertex_Attributes_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Anton_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_25___Sunny_Days_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Textures_Text_Overflow___Linked_Text_Image_1_png",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_16___Linked_text_overflow_mode_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Textures_Text_Overflow___Linked_Text_UI_Screenshot_png",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_16___Linked_text_overflow_mode_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Electronic_Highway_Sign_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_17___Old_Computer_Terminal_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TextConsoleSimulator_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_17___Old_Computer_Terminal_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_UiFrameRateCounter_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_18___ScrollRect_&_Masking_&_Layout_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_LiberationSans_SDF___Soft_Mask_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_19___Masking_Texture_&_Soft_Mask_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_ChatController_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_20___Input_Field_with_Scrollbar_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_SimpleScript_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_21___Script_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_ExampleScript_01_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_22___Basic_Scripting_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_VertexColorCycler_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_23___Animating_Vertex_Attributes_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_VertexJitter_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_23___Animating_Vertex_Attributes_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Bangers_SDF_Logo___URP_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Materials_Ground___URP_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Roboto_Bold_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Roboto_Bold_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Roboto_Bold_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Materials_Crate___URP_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_CameraController_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_CameraController_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_CameraController_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_Benchmark_(Floating_Text)_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Roboto_Bold_SDF___URP_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_FrameRateCounter_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_FrameRateCounter_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_TMP_FrameRateCounter_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_Benchmark_(Floating_Text)_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalLightData_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalLightData_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Basic_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalLightData_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Runtime_UniversalAdditionalLightData_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_ObjectSpin_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_URP_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_ObjectSpin_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_ObjectSpin_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Materials_Crate___Surface_Shader_Scene_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Bangers_SDF_Logo_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Materials_Ground___Surface_Shader_Scene_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Materials_Ground___Surface_Shader_Scene_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_Benchmark_(Floating_Text)_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Roboto_Bold_SDF___Surface_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_24___Surface_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_WarpTextExample_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_25___Sunny_Days_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Anton_SDF___Sunny_Days_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_25___Sunny_Days_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_DropdownSample_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_26___Dropdown_Placeholder_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_TMP_TMP_Dropdown_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_26___Dropdown_Placeholder_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Bangers_SDF___Drop_Shadow___2_Pass_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_27___Double_Pass_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_Sky_and_Fog_Volume_Profile_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Unity_SDF___HDRP_LIT___Outline_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Unity_SDF_asset",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Roboto_Bold_SDF___HDRP_Unlit_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_Volume_Volume_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_Volume_Volume_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_Volume_Volume_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Resources_Fonts_&_Materials_Unity_SDF___HDRP_LIT___Bloom_mat",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_28___HDRP_Shader_Example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_TextMesh_Pro_Examples_&_Extras_Scripts_Benchmark02_cs",
+    "dst_id": "scene_Assets_TextMesh_Pro_Examples_&_Extras_Scenes_Benchmark_(Floating_Text)_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Thaleah_PixelFont_ThaleahFat_fontsettings",
+    "dst_id": "scene_Assets_Thaleah_PixelFont_Thaleah_Demo_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Assets_Thaleah_PixelFont_Materials_Thaleah_DemoBackground_png",
+    "dst_id": "scene_Assets_Thaleah_PixelFont_Thaleah_Demo_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Mask_cs",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_ugui_Runtime_UGUI_UI_Core_Text_cs",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_nobi_roundedcorners_UiRoundedCorners_IndependentRoundedCorners_shader",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_nobi_roundedcorners_Examples_Lenna_png",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_nobi_roundedcorners_UiRoundedCorners_ImageWithIndependentRoundedCorners_cs",
+    "dst_id": "scene_Packages_com_nobi_roundedcorners_Examples_example_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_LightingData_asset",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Materials_Ground_mat",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Materials_Ground_mat",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_RenderPipelineResources_Mesh_BackgroundMesh_fbx",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Materials_Emissive_mat",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Materials_Black_mat",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Materials_Black_mat",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_GlobalVolumeProfile_asset",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_Lighting_ProbeVolume_ProbeVolumePerSceneData_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_RenderPipelineResources_Mesh_SamplesFixture_fbx",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_Camera_FreeCamera_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_Camera_FreeCamera_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_RenderPipelineResources_Mesh_SamplesSpotlightModel_fbx",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_RenderPipelineResources_Mesh_SamplesFloorSpotlight_fbx",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Materials_Metal_Black_mat",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Materials_Gold_mat",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Materials_Gold_mat",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_RenderPipelineResources_Mesh_UnityMaterialBall_fbx",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_RenderPipelineResources_Mesh_UnityMaterialBall_fbx",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Materials_White_mat",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Materials_White_mat",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_Lighting_ProbeVolume_ProbeVolume_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Indoors_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_core_Runtime_Lighting_ProbeVolume_ProbeVolume_cs",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_LightingData_asset",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  },
+  {
+    "src_id": "asset_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_GlobalVolumeProfile_asset",
+    "dst_id": "scene_Packages_com_unity_render_pipelines_universal_Editor_SceneTemplates_Standard_unity",
+    "relation_type": "directlyReferencedBy",
+    "src_type": "asset",
+    "dst_type": "scene"
+  }
+]

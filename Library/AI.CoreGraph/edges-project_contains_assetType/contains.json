@@ -1,0 +1,366 @@
+﻿[
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_MonoScript",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_AnimatorController",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_Material",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_Texture2D",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_ScriptableObject",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_InputActionAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_Shader",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_GameObject",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_TMP_FontAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_TMP_SpriteAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_VolumeProfile",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_Font",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_LightingDataAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_DefaultAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_AnimationClip",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_Tile",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_SceneAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_SceneTemplateAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_ComputeShader",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_PostProcessData",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_Renderer2DData",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_UniversalRenderPipelineAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_TextAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_TMP_ColorGradient",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_TMP_StyleSheet",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_TMP_Settings",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_ShaderInclude",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_UniversalRenderPipelineGlobalSettings",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_StyleSheet",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_VisualTreeAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_AssemblyDefinitionAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_PackageManifest",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_AssemblyDefinitionReferenceAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_SpriteAtlasScriptablePacker",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_SpriteAtlasGeometryPacker",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_Pipeline",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_SpriteShape",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_ShaderVariantCollection",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_ThemeStyleSheet",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_NavGraphViewAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_VectorImage",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_AudioClip",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_NoiseSettings",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_PanelSettings",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_LensFlareDataSRP",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_AppUISettings",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_ShaderGraphHeatmapValues",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_SubGraphAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_LocalizationAsset",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_ProbeVolumeBakingSet",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_Cubemap",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  },
+  {
+    "src_id": "project_root",
+    "dst_id": "assetType_UniversalRendererData",
+    "relation_type": "contains",
+    "src_type": "project",
+    "dst_type": "assetType"
+  }
+]
