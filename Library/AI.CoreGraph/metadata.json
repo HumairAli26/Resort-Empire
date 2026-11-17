@@ -1,0 +1,22 @@
+﻿{
+  "total_scenes": 40,
+  "total_assets": 51713,
+  "total_tools": 0,
+  "total_asset_types": 52,
+  "total_tool_categories": 0,
+  "total_projects": 1,
+  "total_scene_directlyDependsOn_asset_edges": 346,
+  "total_asset_directlyDependsOn_asset_edges": 5375,
+  "total_asset_directlyReferencedBy_scene_edges": 346,
+  "total_assetType_includes_asset_edges": 51753,
+  "total_toolCategory_includes_tool_edges": 0,
+  "total_project_canUse_toolCategory_edges": 0,
+  "total_project_has_scene_edges": 40,
+  "total_project_contains_assetType_edges": 52,
+  "total_asset_inheritsFrom_asset_edges": 2960,
+  "total_asset_implements_asset_edges": 1695,
+  "total_asset_declares_asset_edges": 13576,
+  "total_asset_uses_asset_edges": 39535,
+  "project_name": "Resort Empire",
+  "unity_version": "6000.3.6f1"
+}
