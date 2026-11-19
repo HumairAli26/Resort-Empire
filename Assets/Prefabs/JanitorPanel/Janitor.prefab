@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2388890459944304524}
   - component: {fileID: 7821666101402353704}
   - component: {fileID: -913063793209272767}
+  - component: {fileID: 115779074749561465}
   m_Layer: 0
   m_Name: Janitor
   m_TagString: Untagged
@@ -168,3 +169,22 @@ PolygonCollider2D:
       - {x: 0.10508501, y: 0.015932173}
       - {x: 0.07999133, y: 0.034635596}
   m_UseDelaunayMesh: 1
+--- !u!114 &115779074749561465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6013293016435321501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877efd35ab398de42a4355ac489eadd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JanitorCleaningArea
+  cleaningRange: 5
+  janitorPrefab: {fileID: 1499256723070925547, guid: a152578ff3ab27047b23e287e2489ab0, type: 3}
+  dirtPrefab: {fileID: 9115188554015042734, guid: dc4bc2a7be5bd9d449e437826cc411c8, type: 3}
+  dirtSpawnInterval: 5
+  maximumDirtSpots: 5
+  showRange: 1
+  rangeColor: {r: 0, g: 1, b: 0, a: 0.3}

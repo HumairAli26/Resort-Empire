@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3949208564276551565}
   - component: {fileID: 8278517975886206546}
-  - component: {fileID: 1597634435578502002}
+  - component: {fileID: 6219130603851718390}
   m_Layer: 0
   m_Name: Trash
   m_TagString: Untagged
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1597634435578502002
+--- !u!114 &6219130603851718390
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,6 +101,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 9115188554015042734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44390dccf6f274545a01891348e3fbb7, type: 3}
+  m_Script: {fileID: 11500000, guid: b212d468e4563f54780b62a20204a929, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Trash
+  m_EditorClassIdentifier: Assembly-CSharp::DirtSpot
